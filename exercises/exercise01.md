@@ -2,7 +2,7 @@
 
 Take the following function:
 
-```{.cpp }
+```  
 int divide(int divident, int divisor) { 
   return divident / divisor;
 }
@@ -27,4 +27,4 @@ What would be a good value of type `int`   to use as error return for `div2`  ?
 
 What is your favorite error handling strategy from a usage side as shown in the test cases?
 
-Which of the error-handling strategies allows to specify the function as a wide contract function (marked with `noexcept`{.cpp })?
+Which of the error-handling strategies allows to specify the function as a wide contract function (marked with `noexcept`  )?
