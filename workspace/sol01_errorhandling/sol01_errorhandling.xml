@@ -1,0 +1,19 @@
+<testsuites>
+	<testsuite name="AllTests" tests="15">
+		<testcase classname="AllTests" name="testForDiv1WithDefaultErrorResult"/>
+		<testcase classname="AllTests" name="testDiv1IsOk"/>
+		<testcase classname="AllTests" name="testForDiv1WithSpecialErrorResult"/>
+		<testcase classname="AllTests" name="testDiv2IsOk"/>
+		<testcase classname="AllTests" name="testForDiv2WithDefaultErrorResult"/>
+		<testcase classname="AllTests" name="testDiv2aIsOk"/>
+		<testcase classname="AllTests" name="testForDiv2aToReturnEmptyOptional"/>
+		<testcase classname="AllTests" name="testDiv2aValueThrowsIfInvalid"/>
+		<testcase classname="AllTests" name="testDiv2bIsOk"/>
+		<testcase classname="AllTests" name="testForDiv2bForErrorCodeReturn"/>
+		<testcase classname="AllTests" name="testDiv2bValueThrowsIfErrorCode"/>
+		<testcase classname="AllTests" name="testDiv3IsOk"/>
+		<testcase classname="AllTests" name="testForDiv3WithDefaultErrorResult"/>
+		<testcase classname="AllTests" name="testDiv4IsOk"/>
+		<testcase classname="AllTests" name="testForDiv4WithDefaultErrorResult"/>
+	</testsuite>
+</testsuites>
