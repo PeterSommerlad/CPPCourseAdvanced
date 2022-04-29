@@ -25,7 +25,7 @@ Is it neccessary for a (partial) specialization of a class template to provide t
 
 ## Examine and Test `Sack<T>`
   
-Take the example code including unit tests of the class template Sack
+Take the example code including unit tests of the class template [Sack](../src/Sack.h) 
 
 * Can you invent more and better test cases for Sack?
 * `std::string_view` has similar problems than `char const *` and can lead to dangling of the content of `Sack<std::string_view>`. Implement a template specialization for that case as we did for `char const *`. Try a variant with implementing the body yourself and a variation where you inherit from `Sack<std::string>`.
