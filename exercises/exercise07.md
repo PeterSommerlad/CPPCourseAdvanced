@@ -16,26 +16,29 @@ The file is not sorted, so that modules might be pre-requisites, before you know
 Create a "node" class with a string and appropriate container with `std::shared_ptr` to this class.
 
 For example the following input.txt:
-
-  DB1 OO
-  DB2 DB1
-  Math
-  OO
-  AD1 OO
-  CPI OO Math
-  Thesis DB2 SE2 UI2
-  SE1 AD1 CPI DB1
-  SE2 DB1 SE1 UI1
-  UI1 AD1
-  UI2 UI1
+```
+DB1 OO
+DB2 DB1
+Math
+OO
+AD1 OO
+CPI OO Math
+Thesis DB2 SE2 UI2
+SE1 AD1 CPI DB1
+SE2 DB1 SE1 UI1
+UI1 AD1
+UI2 UI1
+```
 
 might produce the following schedule as output:
 
-  1: Math OO
-  2: DB1 AD1 CPI
-  3: DB2 SE1 UI1
-  4: SE2 UI2
-  5: Thesis
+```
+1: Math OO
+2: DB1 AD1 CPI
+3: DB2 SE1 UI1
+4: SE2 UI2
+5: Thesis
+```
 
 Variation A):
 
@@ -48,7 +51,11 @@ Variation A):
 * Do not instantiate objects representing the same lecture twice! 
 * Write unit tests for your functions! 
 
-Variation B):
+Variation B): 
+
+* can you create a working solution without dangling, that does not use `std::shared_ptr` but `std::unique_ptr` and `std::reference_wrapper` without risking "dangling"?
+
+Variation C):
 
 * A more efficient algorithm is possible, if the nodes to not store the other nodes they depend on, but the the nodes that need the node, thus reversing the relationship.
 
@@ -56,7 +63,7 @@ Variation B):
 
 Optional: 
 * Test your code also with the large dependency file: LargeCatalogue.txt
-** measure timing as follows (using ``#include<chrono>``):
+  * measure timing as follows (using ``#include<chrono>``):
 ```C++
     auto start=std::chrono::system_clock::now();
     // do your stuff
