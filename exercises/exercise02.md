@@ -3,14 +3,16 @@
 ## Function Template `median()`
 
 * Write a function template `median(a, b, c)` taking three arguments of the same type and returning the one in the middle, i.e., neither min/max.
-  ASSERT_EQUAL(2, median(1,2,3));
+```C++
+ASSERT_EQUAL(2, median(1,2,3));
+```
 * Provide more useful unit tests for your function template with different types.
 * **Hint:** You can implement the function in a header file within your CUTE test project.
 
 ## Function Template `rotate3arguments()`
 
-* Write a function template `rotate3arguments` taking three variables of the same type as arguments and exchanging the values, so that a obtains the value of `b`, `b` of `c`, and `c` of `a`.
-* Provide useful unit tests for your function with different argument types, i.e., `int`{.cpp}, `std::string`{.cpp}, `std::vector<int>`{.cpp}
+* Write a function template `rotate3arguments` taking three variables of the same type as arguments and exchanging the values, so that `a` obtains the value of `b`, `b` of `c`, and `c` of `a`.
+* Provide useful unit tests for your function with different argument types, i.e., `int`  , `std::string`  , `std::vector<int>`  
 * What is the "concept" of your template argument? 
 * **Hint:** You can implement the function in a header file within your CUTE test project.
 * **Hint:** employ the `std::swap()` function to exchange the content of two variables
@@ -25,7 +27,7 @@
 
 ## (extra) `printLnSeparated` as lambda
 
-* create a variadic lambda named `printLnSeparated`{.cpp} that uses fold expressions to create the output separated with a comma and a space each, but only between elements.
+* create a variadic lambda named `printLnSeparated`   that uses fold expressions to create the output separated with a comma and a space each, but only between elements.
 
 ```C++
  std::ostringstream out{};
@@ -33,7 +35,7 @@
  ASSERT_EQUAL("1, 3.14, a, Peter\n",out.str());
 ```
 
-Tip: You need to make use of the comma operator and may be a `bool`{.cpp} flag to sneak in an outputting subexpression.
+Tip: You need to make use of the comma operator and may be a `bool`   flag to sneak in an outputting subexpression.
 
 Useful starting test cases:
 
