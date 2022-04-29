@@ -27,7 +27,21 @@ Is it neccessary for a (partial) specialization of a class template to provide t
   
 Take the example code including unit tests of the class template [Sack](../src/Sack.h) 
 
-* Can you invent more and better test cases for Sack?
+* Can you invent more and better test cases than just the following for Sack?
+```C++
+void testInstantiationPossibilities() {
+	Sack<char> scrabble{};
+	//Sack<int*> shouldntcompile{};
+	Sack<char const *> sackforstringliterals{};
+	ASSERTM("only compilation tested",true);
+}
+
+void testSackWithPointersShouldntCompile(){
+	//Sack<int *> shouldNotCompile;
+	Sack<char const *> shouldkeepStrings;
+}
+```
+
 * `std::string_view` has similar problems than `char const *` and can lead to dangling of the content of `Sack<std::string_view>`. Implement a template specialization for that case as we did for `char const *`. Try a variant with implementing the body yourself and a variation where you inherit from `Sack<std::string>`.
 * examine the use of the base template and its specializations by using either Cevelop's template information view (need to select -std=c++14) from the test cases or by using CppInsights.
   [https://cppinsights.io/s/634dea53](https://cppinsights.io/s/634dea53)
