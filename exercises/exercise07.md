@@ -56,13 +56,13 @@ Variation B):
 
 Optional: 
 * Test your code also with the large dependency file: LargeCatalogue.txt
-** measure timing as follows (using =[#include <chrono>]=):
-====
+** measure timing as follows (using ``#include<chrono>``):
+```C++
     auto start=std::chrono::system_clock::now();
     // do your stuff
     std::chrono::duration<double> delta=std::chrono::system_clock::now()-start;
     out << delta.count() << "s time\n";
-====
+```
 
 
 ## Polyamoric Persons
