@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite name="AllTests" tests="4">
+		<testcase classname="AllTests" name="testInstantiationPossibilities"/>
+		<testcase classname="AllTests" name="testmakeSackInt"/>
+		<testcase classname="AllTests" name="testmakeSackCharPtr"/>
+		<testcase classname="AllTests" name="testSackWithPointersShouldntCompile"/>
+	</testsuite>
+</testsuites>

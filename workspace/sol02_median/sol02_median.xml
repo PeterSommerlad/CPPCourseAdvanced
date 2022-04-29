@@ -1,0 +1,11 @@
+<testsuites>
+	<testsuite name="AllTests" tests="7">
+		<testcase classname="AllTests" name="test_median_double"/>
+		<testcase classname="AllTests" name="test_median_int_right_value"/>
+		<testcase classname="AllTests" name="testmedianString"/>
+		<testcase classname="AllTests" name="testmedianCharPtr"/>
+		<testcase classname="AllTests" name="test_median_all_int_permutations"/>
+		<testcase classname="AllTests" name="test_median_with_1_2_3"/>
+		<testcase classname="AllTests" name="test_median_string_literals_all_permutations"/>
+	</testsuite>
+</testsuites>

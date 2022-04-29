@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.833323745/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.833323745/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.833323745/PATH/value=/opt/homebrew/bin/\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/cdt.managedbuild.config.gnu.exe.debug.833323745/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.833323745/appendContributed=true

@@ -1,0 +1,25 @@
+<testsuites>
+	<testsuite name="AllTests" tests="21">
+		<testcase classname="AllTests" name="constructionFromIteratorPair"/>
+		<testcase classname="AllTests" name="defaultConstructorStillWorks"/>
+		<testcase classname="AllTests" name="extractAVectorFromSack"/>
+		<testcase classname="AllTests" name="asVectorTest"/>
+		<testcase classname="AllTests" name="createSackFromInitializerList"/>
+		<testcase classname="AllTests" name="makeSackFromInitializerList"/>
+		<testcase classname="AllTests" name="makeSackFromHeterogeneousInitializerFails"/>
+		<testcase classname="AllTests" name="makeSackWithLoop"/>
+		<testcase classname="AllTests" name="creationWithCurlyBracesFavorsInitializerList"/>
+		<testcase classname="AllTests" name="creationAllowsTwoDifferentArgumentTypes"/>
+		<testcase classname="AllTests" name="makeASackFromAList"/>
+		<testcase classname="AllTests" name="createOtherSack"/>
+		<testcase classname="AllTests" name="creationFromIteratorsCanDeduceElementType"/>
+		<testcase classname="AllTests" name="creationFromStringLiteralsSelectsWrongSackType"/>
+		<testcase classname="AllTests" name="constructionFromIteratorPairWithDeduction"/>
+		<testcase classname="AllTests" name="makeOtherSackWithContainer"/>
+		<testcase classname="AllTests" name="deductionFromInitializerList"/>
+		<testcase classname="AllTests" name="makeSetSackFromInitList"/>
+		<testcase classname="AllTests" name="makeSetSackFromIterators"/>
+		<testcase classname="AllTests" name="SetSackAliasCTAD"/>
+		<testcase classname="AllTests" name="SetSackAliasCTADFromIteratorsDoesNotWork"/>
+	</testsuite>
+</testsuites>

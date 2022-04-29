@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1481178159/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1481178159/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1481178159/PATH/value=/opt/homebrew/bin/\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1481178159/append=true
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1481178159/appendContributed=true

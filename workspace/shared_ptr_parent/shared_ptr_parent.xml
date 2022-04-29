@@ -1,0 +1,10 @@
+<testsuites>
+	<testsuite name="AllTests" tests="6">
+		<testcase classname="AllTests" name="simple::createStarWarsRelatives"/>
+		<testcase classname="AllTests" name="simple::demoWeakPtrAccess"/>
+		<testcase classname="AllTests" name="spawn::createStarWarsRelatives"/>
+		<testcase classname="AllTests" name="multiple::createStarWarsRelatives"/>
+		<testcase classname="AllTests" name="multiple::testIfChildOfWorks"/>
+		<testcase classname="AllTests" name="spawn::NonHeapObjectHasNullptrWeakFromThis"/>
+	</testsuite>
+</testsuites>

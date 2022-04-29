@@ -1,0 +1,393 @@
+ch.hsr.ifs.cute.mockator.problems.InconsistentExpectationsProblem=-Info
+ch.hsr.ifs.cute.mockator.problems.InconsistentExpectationsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Inconsistent expectations\\")"}
+ch.hsr.ifs.cute.mockator.problems.MissingTestDoubleStaticPolyProblem=-Error
+ch.hsr.ifs.cute.mockator.problems.MissingTestDoubleStaticPolyProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Compile seam cannot be resolved\\")"}
+ch.hsr.ifs.cute.mockator.problems.MissingTestDoubleSubTypeProblem=-Error
+ch.hsr.ifs.cute.mockator.problems.MissingTestDoubleSubTypeProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Object seam cannot be resolved\\")"}
+ch.hsr.ifs.cute.mockator.problems.StaticPolyMissingMemFunsProblem=-Error
+ch.hsr.ifs.cute.mockator.problems.StaticPolyMissingMemFunsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing member function(s) in compile seam\\")"}
+ch.hsr.ifs.cute.mockator.problems.SubtypeMissingMemFunsProblem=-Error
+ch.hsr.ifs.cute.mockator.problems.SubtypeMissingMemFunsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing member function(s) in object seam\\")"}
+ch.hsr.ifs.cute.mockator.problems.TraceFunctionProblem=-Warning
+ch.hsr.ifs.cute.mockator.problems.TraceFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Manage trace function\\")"}
+ch.hsr.ifs.cute.mockator.problems.WrapFunctionProblem=-Info
+ch.hsr.ifs.cute.mockator.problems.WrapFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Manage wrapped function\\")"}
+ch.hsr.ifs.cute.ui.problems.unregisteredTestMarker=Warning
+ch.hsr.ifs.cute.ui.problems.unregisteredTestMarker.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unregistered Test Marker\\")"}
+com.cevelop.charwars.problems.ArrayProblem=Warning
+com.cevelop.charwars.problems.ArrayProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use std\:\:array instead of C-Array.\\")"}
+com.cevelop.charwars.problems.CStrProblem=Warning
+com.cevelop.charwars.problems.CStrProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use different overload that can take std\:\:string directly.\\")"}
+com.cevelop.charwars.problems.CStringAliasProblem=Warning
+com.cevelop.charwars.problems.CStringAliasProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use std\:\:string\:\:size_type instead of C-String alias.\\")"}
+com.cevelop.charwars.problems.CStringCleanupProblem=Warning
+com.cevelop.charwars.problems.CStringCleanupProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use std\:\:string member functions instead of <cstring> functions.\\")"}
+com.cevelop.charwars.problems.CStringParameterProblem=Warning
+com.cevelop.charwars.problems.CStringParameterProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use std\:\:string parameter instead of C-String parameter.\\")"}
+com.cevelop.charwars.problems.CStringProblem=Warning
+com.cevelop.charwars.problems.CStringProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use std\:\:string instead of C-Strings.\\")"}
+com.cevelop.charwars.problems.PointerParameterProblem=Warning
+com.cevelop.charwars.problems.PointerParameterProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Use reference parameters instead of pointer parameters.\\")"}
+com.cevelop.codeanalysator.autosar.info.donotnestlambdas=-Info
+com.cevelop.codeanalysator.autosar.info.donotnestlambdas.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-08\: Lambda expressions should not be defined inside another lambda expression\\")"}
+com.cevelop.codeanalysator.autosar.info.noimplicitlambdareturntype=-Info
+com.cevelop.codeanalysator.autosar.info.noimplicitlambdareturntype.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-06\: Return type of a non-void return type lambda expression should be explicitly specified\\")"}
+com.cevelop.codeanalysator.autosar.problem.alwaysinitializeanobject=-Warning
+com.cevelop.codeanalysator.autosar.problem.alwaysinitializeanobject.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A08-05-00\: Always initialize an object\\")"}
+com.cevelop.codeanalysator.autosar.problem.avoidconversationoperators=-Warning
+com.cevelop.codeanalysator.autosar.problem.avoidconversationoperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A13-05-03\: Avoid conversion operators\\")"}
+com.cevelop.codeanalysator.autosar.problem.avoidlossyconversions=-Warning
+com.cevelop.codeanalysator.autosar.problem.avoidlossyconversions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A04-07-01\: Avoid lossy (narrowing, truncating) arithmetic conversions\\")"}
+com.cevelop.codeanalysator.autosar.problem.catchexceptionsbyreference=-Warning
+com.cevelop.codeanalysator.autosar.problem.catchexceptionsbyreference.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A15-03-05\: Catch exceptions by reference\\")"}
+com.cevelop.codeanalysator.autosar.problem.conditionmustbebool=-Warning
+com.cevelop.codeanalysator.autosar.problem.conditionmustbebool.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-00-02\: The condition of an if or iteration statement shall have type bool\\")"}
+com.cevelop.codeanalysator.autosar.problem.donothidememberfunctions=-Warning
+com.cevelop.codeanalysator.autosar.problem.donothidememberfunctions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-02-01\: Do not hide non-virtual member functions\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotimplicitlycapturevariables=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotimplicitlycapturevariables.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-02\: Variables shall not be implicitly captured in a lambda expression\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotinitializeautousinginitializerlist=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotinitializeautousinginitializerlist.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A08-05-03\: A variable of type auto shall not be initialized using initializer list\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotintroducevirtualfunctioninfinalclass=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotintroducevirtualfunctioninfinalclass.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-03-03\: Do not introduce virtual functions in final class\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotomitvirtspecifier=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotomitvirtspecifier.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-03-02\: Each overriding virtual function shall be declared with the override or final specifier\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotoutlivereferencecapturedobjects=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotoutlivereferencecapturedobjects.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-04\: A lambda expression object shall not outlive any of its reference-captured objects\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotreturnreferencetoparameterpassedbyconstreference=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotreturnreferencetoparameterpassedbyconstreference.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-05-01\: A function shall not return a reference or a pointer to a parameter that is passed by reference to const\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotuseasm=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotuseasm.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-04-01\: The asm declaration shall not be used\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotusedynamiccast=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotusedynamiccast.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-02-01\: Dynamic_cast should not be used\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotuseliteralvalues=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotuseliteralvalues.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-01\: Literal values shall not be used apart from type initialization\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotuseregister=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotuseregister.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-01-04\: Do not use register\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotuseternaryconditionaloperatorassubexpression=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotuseternaryconditionaloperatorassubexpression.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-16-01\: The ternary conditional operator shall not be used as a sub-expression\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotusetypedef=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotusetypedef.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-01-06\: The typedef specifier shall not be used\\")"}
+com.cevelop.codeanalysator.autosar.problem.donotuseunion=-Warning
+com.cevelop.codeanalysator.autosar.problem.donotuseunion.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A09-05-01\: Unions shall not be used\\")"}
+com.cevelop.codeanalysator.autosar.problem.explicitconversionoperators=-Warning
+com.cevelop.codeanalysator.autosar.problem.explicitconversionoperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A13-05-02\: User-defined conversion operators shall be defined explicit\\")"}
+com.cevelop.codeanalysator.autosar.problem.explicitlydefineenumunderlyingbasetype=-Warning
+com.cevelop.codeanalysator.autosar.problem.explicitlydefineenumunderlyingbasetype.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-02-02\: Enumeration underlying base type shall be explicitly defined\\")"}
+com.cevelop.codeanalysator.autosar.problem.hexvaluesmustbeuppercase=-Warning
+com.cevelop.codeanalysator.autosar.problem.hexvaluesmustbeuppercase.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A02-13-05\: Hexadecimal constants should be uppercase\\")"}
+com.cevelop.codeanalysator.autosar.problem.initializenonefirstorallenumerators=-Warning
+com.cevelop.codeanalysator.autosar.problem.initializenonefirstorallenumerators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-02-04\: In an enumeration, either (1) none, (2) the first or (3) all enumerators shall be initialized\\")"}
+com.cevelop.codeanalysator.autosar.problem.mandatorylambdaparameterlist=-Warning
+com.cevelop.codeanalysator.autosar.problem.mandatorylambdaparameterlist.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-01-03\: Parameter list (possibly empty) shall be included in every lambda expression\\")"}
+com.cevelop.codeanalysator.autosar.problem.missingspecialmemberfunctions=-Warning
+com.cevelop.codeanalysator.autosar.problem.missingspecialmemberfunctions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A12-00-01\: Missing special member functions\\")"}
+com.cevelop.codeanalysator.autosar.problem.noderivationfrommorethanonebaseclass=-Warning
+com.cevelop.codeanalysator.autosar.problem.noderivationfrommorethanonebaseclass.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-01-01\: Class shall not be derived from more than one base class which is not an interface class\\")"}
+com.cevelop.codeanalysator.autosar.problem.nomorethantwolevelsofindirection=-Warning
+com.cevelop.codeanalysator.autosar.problem.nomorethantwolevelsofindirection.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-00-03\: The declaration of objects shall contain no more than two levels of pointer indirection\\")"}
+com.cevelop.codeanalysator.autosar.problem.novirtualassignementoperators=-Warning
+com.cevelop.codeanalysator.autosar.problem.novirtualassignementoperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-03-05\: A user-defined assignment operator shall not be virtual\\")"}
+com.cevelop.codeanalysator.autosar.problem.onlycomparepointertovirtualmemberfunctionwithnullpointer=-Warning
+com.cevelop.codeanalysator.autosar.problem.onlycomparepointertovirtualmemberfunctionwithnullpointer.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-10-01\: A pointer to member virtual function shall only be tested for equality with null-pointer-constant\\")"}
+com.cevelop.codeanalysator.autosar.problem.parenthesizelogicaloperators=-Warning
+com.cevelop.codeanalysator.autosar.problem.parenthesizelogicaloperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A05-02-01\: The operands of a logical AND or OR shall be parenthesized if the operands contain binary operators\\")"}
+com.cevelop.codeanalysator.autosar.problem.redundantoperations=-Warning
+com.cevelop.codeanalysator.autosar.problem.redundantoperations.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A12-00-01\: Avoid redundant default operations\\")"}
+com.cevelop.codeanalysator.autosar.problem.switchmusthaveatleasttwocases=-Warning
+com.cevelop.codeanalysator.autosar.problem.switchmusthaveatleasttwocases.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A06-04-01\: A switch statement shall have at least two case-clauses, distinct from the default label.\\")"}
+com.cevelop.codeanalysator.autosar.problem.useautosparingly=-Warning
+com.cevelop.codeanalysator.autosar.problem.useautosparingly.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-01-05\: The auto specifier shall not be used apart from specific cases\\")"}
+com.cevelop.codeanalysator.autosar.problem.usebracedinitialization=-Warning
+com.cevelop.codeanalysator.autosar.problem.usebracedinitialization.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A08-05-02\: Braced-initialization {}, without equals sign, shall be used for variable initialization\\")"}
+com.cevelop.codeanalysator.autosar.problem.usescopedenumclasses=-Warning
+com.cevelop.codeanalysator.autosar.problem.usescopedenumclasses.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A07-02-03\: Enumerations shall be declared as scoped enum classes\\")"}
+com.cevelop.codeanalysator.autosar.problem.virtualfunctionshallhaveexactlyonespecifier=-Warning
+com.cevelop.codeanalysator.autosar.problem.virtualfunctionshallhaveexactlyonespecifier.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"A10-03-01\: Virtual functions shall have extactly one specifier, either virtual, override or final\\")"}
+com.cevelop.codeanalysator.cppcore.problem.alwaysinitializeanobject=Warning
+com.cevelop.codeanalysator.cppcore.problem.alwaysinitializeanobject.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.020\: Always initialize an object\\")"}
+com.cevelop.codeanalysator.cppcore.problem.avoidconversationoperators=Warning
+com.cevelop.codeanalysator.cppcore.problem.avoidconversationoperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.164\: Avoid conversion operators\\")"}
+com.cevelop.codeanalysator.cppcore.problem.avoidlossyconversions=Warning
+com.cevelop.codeanalysator.cppcore.problem.avoidlossyconversions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.046\: Avoid lossy (narrowing, truncating) arithmetic conversions\\")"}
+com.cevelop.codeanalysator.cppcore.problem.declareloopvariableintheintializer=Warning
+com.cevelop.codeanalysator.cppcore.problem.declareloopvariableintheintializer.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.074\: Declare a variable in the for-loop initialization\\")"}
+com.cevelop.codeanalysator.cppcore.problem.destructorhasnobody=Warning
+com.cevelop.codeanalysator.cppcore.problem.destructorhasnobody.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.031\: Destructor has no body\\")"}
+com.cevelop.codeanalysator.cppcore.problem.destructorwithmissingdeletestatements=Warning
+com.cevelop.codeanalysator.cppcore.problem.destructorwithmissingdeletestatements.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.031\: Missing delete statements of owning member variables\\")"}
+com.cevelop.codeanalysator.cppcore.problem.dontusevariablefortwounrelatedpurposes=Warning
+com.cevelop.codeanalysator.cppcore.problem.dontusevariablefortwounrelatedpurposes.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.026\: Don't use a variable for two unrelated purposes\\")"}
+com.cevelop.codeanalysator.cppcore.problem.missingspecialmemberfunctions=Warning
+com.cevelop.codeanalysator.cppcore.problem.missingspecialmemberfunctions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.021\: Missing special member functions\\")"}
+com.cevelop.codeanalysator.cppcore.problem.nodestructor=Warning
+com.cevelop.codeanalysator.cppcore.problem.nodestructor.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.031\: Destructor needed because of owner in member variables\\")"}
+com.cevelop.codeanalysator.cppcore.problem.redundantoperations=Warning
+com.cevelop.codeanalysator.cppcore.problem.redundantoperations.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.020\: Avoid redundant default operations\\")"}
+com.cevelop.codeanalysator.misra.info.boolexpressionoperands=Info
+com.cevelop.codeanalysator.misra.info.boolexpressionoperands.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"M04-05-01\: const boolean in expression\\")"}
+com.cevelop.codeanalysator.misra.problem.avoidlossyconversions=Warning
+com.cevelop.codeanalysator.misra.problem.avoidlossyconversions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"M05-00-06\: Avoid lossy (narrowing, truncating) arithmetic conversions\\")"}
+com.cevelop.codeanalysator.misra.problem.boolexpressionoperands=Warning
+com.cevelop.codeanalysator.misra.problem.boolexpressionoperands.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"M04-05-01\: Expressions with type bool shall not be used as operands to built-in operators other than the assignment operator, the logical operators, the equality operators, then unary operator and the conditional operator\\")"}
+com.cevelop.codeanalysator.misra.problem.declareloopvariableintheintializer=Warning
+com.cevelop.codeanalysator.misra.problem.declareloopvariableintheintializer.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"M03-04-01\: An identifier declared to be an object or type shall be defined in a block that minimizes its visbility.\\")"}
+com.cevelop.constificator.problems.MissingQualification=Warning
+com.cevelop.constificator.problems.MissingQualification.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing const-qualification\\")",checkLocalVariables\=>true,checkFunctionParameters\=>true,checkMemberFunctions\=>true,checkDataMembers\=>true}
+com.cevelop.constificator.problems.PotentiallyMissingQualification=-Info
+com.cevelop.constificator.problems.PotentiallyMissingQualification.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Possibly missing const-qualification\\")",checkLocalVariables\=>true,checkFunctionParameters\=>true,checkMemberFunctions\=>true,checkDataMembers\=>true}
+com.cevelop.ctylechecker.problems.cincout=Warning
+com.cevelop.ctylechecker.problems.cincout.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Cin Cout Problem\\")"}
+com.cevelop.ctylechecker.problems.constructorshouldbeexplicit=Warning
+com.cevelop.ctylechecker.problems.constructorshouldbeexplicit.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Non-'explicit' Single Argument Constructor\\")"}
+com.cevelop.ctylechecker.problems.dynamicstyleproblem=Warning
+com.cevelop.ctylechecker.problems.dynamicstyleproblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Dynamic Style Problem\\")"}
+com.cevelop.ctylechecker.problems.dynamicstyleproblemforfiles=Warning
+com.cevelop.ctylechecker.problems.dynamicstyleproblemforfiles.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Dynamic Style Problem For Files\\")"}
+com.cevelop.ctylechecker.problems.globalnonconstvar=Warning
+com.cevelop.ctylechecker.problems.globalnonconstvar.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Global Non Const Variable Problem\\")"}
+com.cevelop.ctylechecker.problems.includeguard=Warning
+com.cevelop.ctylechecker.problems.includeguard.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Include Guard Missing\\")"}
+com.cevelop.ctylechecker.problems.iostream=Warning
+com.cevelop.ctylechecker.problems.iostream.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Iostream Include Problem\\")"}
+com.cevelop.ctylechecker.problems.memberinitializernotused=Warning
+com.cevelop.ctylechecker.problems.memberinitializernotused.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Member Initializer Not Used In Constructor\\")"}
+com.cevelop.ctylechecker.problems.missingselfinclude=Warning
+com.cevelop.ctylechecker.problems.missingselfinclude.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing Include to Own Header\\")"}
+com.cevelop.ctylechecker.problems.missingstandardinclude=Warning
+com.cevelop.ctylechecker.problems.missingstandardinclude.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing Standard Include\\")"}
+com.cevelop.ctylechecker.problems.multipleasserts=Warning
+com.cevelop.ctylechecker.problems.multipleasserts.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Multiple Asserts in Cute Test\\")"}
+com.cevelop.ctylechecker.problems.nonsystemincludesfirst=Warning
+com.cevelop.ctylechecker.problems.nonsystemincludesfirst.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"System Include Before Own Include\\")"}
+com.cevelop.ctylechecker.problems.redundantaccessspecifier=Warning
+com.cevelop.ctylechecker.problems.redundantaccessspecifier.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Redundant Access Specifier Problem\\")"}
+com.cevelop.ctylechecker.problems.selfincludeposition=Warning
+com.cevelop.ctylechecker.problems.selfincludeposition.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Self Include Position\\")"}
+com.cevelop.ctylechecker.problems.superfluousstandardinclude=Warning
+com.cevelop.ctylechecker.problems.superfluousstandardinclude.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Superfluous Standard Include\\")"}
+com.cevelop.ctylechecker.problems.using=Warning
+com.cevelop.ctylechecker.problems.using.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using in Header Problem\\")"}
+com.cevelop.gslator.problems.C.164AvoidConversionOperators=-Warning
+com.cevelop.gslator.problems.C.164AvoidConversionOperators.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.164\: Avoid conversion operators\\")"}
+com.cevelop.gslator.problems.C.20RedundantOperations=-Warning
+com.cevelop.gslator.problems.C.20RedundantOperations.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.20\: Avoid redundant default operations\\")"}
+com.cevelop.gslator.problems.C.21MissingSpecialMemberFunctions=-Warning
+com.cevelop.gslator.problems.C.21MissingSpecialMemberFunctions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.21\: Missing special member functions\\")"}
+com.cevelop.gslator.problems.C.31_01NoDestructor=-Warning
+com.cevelop.gslator.problems.C.31_01NoDestructor.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.31\: Destructor needed because of owner in member variables\\")"}
+com.cevelop.gslator.problems.C.31_02DestructorHasNoBody=-Warning
+com.cevelop.gslator.problems.C.31_02DestructorHasNoBody.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.31\: Destructor has no body\\")"}
+com.cevelop.gslator.problems.C.31_03DestructorWithMissingDeleteStatements=-Warning
+com.cevelop.gslator.problems.C.31_03DestructorWithMissingDeleteStatements.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.31\: Missing delete statements of owning member variables\\")"}
+com.cevelop.gslator.problems.C.35BaseClassDestructor=-Warning
+com.cevelop.gslator.problems.C.35BaseClassDestructor.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.35\: A base class destructor should be either public and virtual, or protected and nonvirtual\\")"}
+com.cevelop.gslator.problems.C.37DestructorShouldBeNoExcept=-Warning
+com.cevelop.gslator.problems.C.37DestructorShouldBeNoExcept.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.37\: Destructor should be declared noexcept\\")"}
+com.cevelop.gslator.problems.C.44NoexceptCtor=-Warning
+com.cevelop.gslator.problems.C.44NoexceptCtor.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.44\: Constructor should be declared noexcept\\")"}
+com.cevelop.gslator.problems.C.45InClassInitialize=-Warning
+com.cevelop.gslator.problems.C.45InClassInitialize.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.45\: Default constructor shouldn't only initialize data members\\")"}
+com.cevelop.gslator.problems.C.46DeclareSingleCtorExplicit=-Warning
+com.cevelop.gslator.problems.C.46DeclareSingleCtorExplicit.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.46\: Single-argument constructor should be declared explicit\\")"}
+com.cevelop.gslator.problems.C.47InitializeMemVarsInRightOrder=-Warning
+com.cevelop.gslator.problems.C.47InitializeMemVarsInRightOrder.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.47\: Member variables should be initialized in the same order as they are declared\\")"}
+com.cevelop.gslator.problems.C.48PreferInClassInitializerToCtorInit=-Warning
+com.cevelop.gslator.problems.C.48PreferInClassInitializerToCtorInit.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.48\: Prefer in-class initializers to member initializers in constructors for constant initializers\\")"}
+com.cevelop.gslator.problems.C.49NoAssignmentsInCtor=-Warning
+com.cevelop.gslator.problems.C.49NoAssignmentsInCtor.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.49\: Prefer initialization to assignment in constructors\\")"}
+com.cevelop.gslator.problems.C.60_01CopyAssignmentNonVirtual=-Warning
+com.cevelop.gslator.problems.C.60_01CopyAssignmentNonVirtual.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.60\: Copy assignment should be non-virtual\\")"}
+com.cevelop.gslator.problems.C.60_02CopyAssignmentParameterByConstRef=-Warning
+com.cevelop.gslator.problems.C.60_02CopyAssignmentParameterByConstRef.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.60\: Parameter should be taken by const&\\")"}
+com.cevelop.gslator.problems.C.60_03CopyAssignmentReturnByNonConstRef=-Warning
+com.cevelop.gslator.problems.C.60_03CopyAssignmentReturnByNonConstRef.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.60\: Return parameter should be non-const&\\")"}
+com.cevelop.gslator.problems.C.63_01MoveAssignmentNonVirtual=-Warning
+com.cevelop.gslator.problems.C.63_01MoveAssignmentNonVirtual.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.63\: Move assignment should be non-virtual\\")"}
+com.cevelop.gslator.problems.C.63_02MoveAssignmentReturnByNonConstRef=-Warning
+com.cevelop.gslator.problems.C.63_02MoveAssignmentReturnByNonConstRef.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.63\: Return parameter should be non-const&\\")"}
+com.cevelop.gslator.problems.C.66MoveOperationsNoExcept=-Warning
+com.cevelop.gslator.problems.C.66MoveOperationsNoExcept.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.66\: Move operations should be declared noexcept\\")"}
+com.cevelop.gslator.problems.C.83ValueLikeTypesShouldHaveSwap=-Warning
+com.cevelop.gslator.problems.C.83ValueLikeTypesShouldHaveSwap.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.83\: Missing/broken swap function\\")"}
+com.cevelop.gslator.problems.C.84MakeSwapNoExcept=-Warning
+com.cevelop.gslator.problems.C.84MakeSwapNoExcept.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.84 Make Swap noexcept\\")"}
+com.cevelop.gslator.problems.C.85NamespaceLevelSwapFunction=-Warning
+com.cevelop.gslator.problems.C.85NamespaceLevelSwapFunction.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C.85 If a user defined swap member function is used, namespace-level swap(a, b) should be overwritten\\")"}
+com.cevelop.gslator.problems.ES.09AvoidALLCAPSnames=-Warning
+com.cevelop.gslator.problems.ES.09AvoidALLCAPSnames.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.9\: Avoid ALL_CAPS names\\")",markMacros\=>false}
+com.cevelop.gslator.problems.ES.20AlwaysInitializeAnObject=-Warning
+com.cevelop.gslator.problems.ES.20AlwaysInitializeAnObject.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.20\: Always initialize an object\\")"}
+com.cevelop.gslator.problems.ES.26DontUseVariableForTwoUnrelatedPurposes=-Warning
+com.cevelop.gslator.problems.ES.26DontUseVariableForTwoUnrelatedPurposes.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.26\: Don't use a variable for two unrelated purposes\\")"}
+com.cevelop.gslator.problems.ES.46AvoidLossyConversions=-Warning
+com.cevelop.gslator.problems.ES.46AvoidLossyConversions.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.46\: Avoid lossy (narrowing, truncating) arithmetic conversions\\")",FpToInt\=>true,FpToIntFunc\=>true,IntToCharBig\=>true,IntToCharBigFunc\=>true,IntToCharSmll\=>false,IntToCharSmllFunc\=>true,Integer\=>false,IntegerFunc\=>true,Fp\=>false,FpFunc\=>true,ToUnsigned\=>false,ToUnsignedFunc\=>true}
+com.cevelop.gslator.problems.ES.49IfMustUseNamedCast=-Warning
+com.cevelop.gslator.problems.ES.49IfMustUseNamedCast.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.49 If you must use a cast, use a named cast\\")",enableTraditionalCast\=>true,enableTypeconstWithConstInit\=>true,enableReinterpretQuickFix\=>false}
+com.cevelop.gslator.problems.ES.50DontCastAwayConst=-Warning
+com.cevelop.gslator.problems.ES.50DontCastAwayConst.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.50 Don't cast away const\\")"}
+com.cevelop.gslator.problems.ES.74DeclareLoopVariableInTheInitializer=-Warning
+com.cevelop.gslator.problems.ES.74DeclareLoopVariableInTheInitializer.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.74\: Declare a variable in the for-loop initialization\\")"}
+com.cevelop.gslator.problems.ES.75AvoidDoStatements=-Warning
+com.cevelop.gslator.problems.ES.75AvoidDoStatements.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.75\: Avoid do statements\\")"}
+com.cevelop.gslator.problems.ES.76AvoidGoto=-Warning
+com.cevelop.gslator.problems.ES.76AvoidGoto.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"ES.76\: Avoid goto\\")",enableMultibreakMarker\=>true}
+com.cevelop.intwidthfixator.problems.casts.not-fixed-width=-Info
+com.cevelop.intwidthfixator.problems.casts.not-fixed-width.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Cast expressions\\")"}
+com.cevelop.intwidthfixator.problems.functions.not-fixed-width=-Info
+com.cevelop.intwidthfixator.problems.functions.not-fixed-width.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function return types and parameters\\")"}
+com.cevelop.intwidthfixator.problems.templates.not-fixed-width=-Info
+com.cevelop.intwidthfixator.problems.templates.not-fixed-width.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Template arguments\\")"}
+com.cevelop.intwidthfixator.problems.typedefs.not-fixed-width=-Info
+com.cevelop.intwidthfixator.problems.typedefs.not-fixed-width.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Typedefs and usings\\")"}
+com.cevelop.intwidthfixator.problems.variables.not-fixed-width=-Info
+com.cevelop.intwidthfixator.problems.variables.not-fixed-width.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Variable declarations\\")"}
+com.cevelop.macronator.plugin.ObsoleteFunctionLikeMacro=Warning
+com.cevelop.macronator.plugin.ObsoleteFunctionLikeMacro.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Obsolete function-like macro\\")"}
+com.cevelop.macronator.plugin.ObsoleteObjectLikeMacro=Warning
+com.cevelop.macronator.plugin.ObsoleteObjectLikeMacro.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Obsolete object-like macro\\")"}
+com.cevelop.macronator.plugin.UnusedMacro=Warning
+com.cevelop.macronator.plugin.UnusedMacro.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused Macro\\")"}
+com.cevelop.namespactor.checkers.problems.Typedef2Alias=Warning
+com.cevelop.namespactor.checkers.problems.Typedef2Alias.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Typedef replaceable with alias declarations\\")"}
+com.cevelop.namespactor.checkers.problems.UDECBeforeInclude=Warning
+com.cevelop.namespactor.checkers.problems.UDECBeforeInclude.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using declarations before include statement\\")"}
+com.cevelop.namespactor.checkers.problems.UDECInHeader=Warning
+com.cevelop.namespactor.checkers.problems.UDECInHeader.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using declaration in header file\\")"}
+com.cevelop.namespactor.checkers.problems.UDIRBeforeInclude=Warning
+com.cevelop.namespactor.checkers.problems.UDIRBeforeInclude.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using directive before include statement\\")"}
+com.cevelop.namespactor.checkers.problems.UDIRInHeader=Warning
+com.cevelop.namespactor.checkers.problems.UDIRInHeader.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using directive in header file\\")"}
+com.cevelop.namespactor.checkers.problems.UDIRUnqualified=Warning
+com.cevelop.namespactor.checkers.problems.UDIRUnqualified.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Detects unqualified names in using directives\\")"}
+com.cevelop.tdd.ArgumentMismatchProblem=Error
+com.cevelop.tdd.ArgumentMismatchProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Argument mismatch\\")"}
+com.cevelop.tdd.MissingConstructorProblem=Error
+com.cevelop.tdd.MissingConstructorProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing constructor\\")"}
+com.cevelop.tdd.MissingFreeFunctionProblem=Error
+com.cevelop.tdd.MissingFreeFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing free function\\")"}
+com.cevelop.tdd.MissingFreeOperatorProblem=Error
+com.cevelop.tdd.MissingFreeOperatorProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing free operator\\")"}
+com.cevelop.tdd.MissingLocalVariableProblem=Error
+com.cevelop.tdd.MissingLocalVariableProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing local variable\\")"}
+com.cevelop.tdd.MissingMemberFunctionProblem=Error
+com.cevelop.tdd.MissingMemberFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing member function\\")"}
+com.cevelop.tdd.MissingMemberOperatorProblem=Error
+com.cevelop.tdd.MissingMemberOperatorProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing member operator\\")"}
+com.cevelop.tdd.MissingMemberVariableProblem=Error
+com.cevelop.tdd.MissingMemberVariableProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing member variable\\")"}
+com.cevelop.tdd.MissingNamespaceProblem=Error
+com.cevelop.tdd.MissingNamespaceProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing namespace\\")"}
+com.cevelop.tdd.MissingTypeProblem=Error
+com.cevelop.tdd.MissingTypeProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing type\\")"}
+com.cevelop.tdd.VisibilityProblem=Error
+com.cevelop.tdd.VisibilityProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function visibility\\")"}
+eclipse.preferences.version=1
+org.eclipse.cdt.codan.checkers.errnoreturn=Warning
+org.eclipse.cdt.codan.checkers.errnoreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No return\\")",implicit\=>false}
+org.eclipse.cdt.codan.checkers.errreturnvalue=Error
+org.eclipse.cdt.codan.checkers.errreturnvalue.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused return value\\")"}
+org.eclipse.cdt.codan.checkers.localvarreturn=-Warning
+org.eclipse.cdt.codan.checkers.localvarreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Returning the address of a local variable\\")"}
+org.eclipse.cdt.codan.checkers.nocommentinside=-Error
+org.eclipse.cdt.codan.checkers.nocommentinside.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Nesting comments\\")"}
+org.eclipse.cdt.codan.checkers.nolinecomment=-Error
+org.eclipse.cdt.codan.checkers.nolinecomment.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Line comments\\")"}
+org.eclipse.cdt.codan.checkers.noreturn=Error
+org.eclipse.cdt.codan.checkers.noreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No return value\\")",implicit\=>false}
+org.eclipse.cdt.codan.internal.checkers.AbstractClassCreation=Error
+org.eclipse.cdt.codan.internal.checkers.AbstractClassCreation.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Abstract class cannot be instantiated\\")"}
+org.eclipse.cdt.codan.internal.checkers.AmbiguousProblem=Error
+org.eclipse.cdt.codan.internal.checkers.AmbiguousProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Ambiguous problem\\")"}
+org.eclipse.cdt.codan.internal.checkers.AssignmentInConditionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.AssignmentInConditionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Assignment in condition\\")"}
+org.eclipse.cdt.codan.internal.checkers.AssignmentToItselfProblem=Error
+org.eclipse.cdt.codan.internal.checkers.AssignmentToItselfProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Assignment to itself\\")"}
+org.eclipse.cdt.codan.internal.checkers.BlacklistProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.BlacklistProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function or method is blacklisted\\")",blacklist\=>()}
+org.eclipse.cdt.codan.internal.checkers.CStyleCastProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.CStyleCastProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C-Style cast instead of C++ cast\\")",checkMacro\=>true}
+org.eclipse.cdt.codan.internal.checkers.CaseBreakProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.CaseBreakProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No break at end of case\\")",no_break_comment\=>"no break",last_case_param\=>false,empty_case_param\=>false,enable_fallthrough_quickfix_param\=>false}
+org.eclipse.cdt.codan.internal.checkers.CatchByReference=Warning
+org.eclipse.cdt.codan.internal.checkers.CatchByReference.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Catching by reference is recommended\\")",unknown\=>false,exceptions\=>()}
+org.eclipse.cdt.codan.internal.checkers.CircularReferenceProblem=Error
+org.eclipse.cdt.codan.internal.checkers.CircularReferenceProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Circular inheritance\\")"}
+org.eclipse.cdt.codan.internal.checkers.ClassMembersInitialization=Warning
+org.eclipse.cdt.codan.internal.checkers.ClassMembersInitialization.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Class members should be properly initialized\\")",skip\=>true}
+org.eclipse.cdt.codan.internal.checkers.CopyrightProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.CopyrightProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Lack of copyright information\\")",regex\=>".*Copyright.*"}
+org.eclipse.cdt.codan.internal.checkers.DecltypeAutoProblem=Error
+org.eclipse.cdt.codan.internal.checkers.DecltypeAutoProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid 'decltype(auto)' specifier\\")"}
+org.eclipse.cdt.codan.internal.checkers.FieldResolutionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.FieldResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Field cannot be resolved\\")"}
+org.eclipse.cdt.codan.internal.checkers.FloatCompareProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.FloatCompareProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Direct float comparison\\")"}
+org.eclipse.cdt.codan.internal.checkers.FunctionResolutionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.FunctionResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function cannot be resolved\\")"}
+org.eclipse.cdt.codan.internal.checkers.GotoStatementProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.GotoStatementProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Goto statement used\\")"}
+org.eclipse.cdt.codan.internal.checkers.InvalidArguments=Error
+org.eclipse.cdt.codan.internal.checkers.InvalidArguments.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid arguments\\")"}
+org.eclipse.cdt.codan.internal.checkers.InvalidTemplateArgumentsProblem=Error
+org.eclipse.cdt.codan.internal.checkers.InvalidTemplateArgumentsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid template argument\\")"}
+org.eclipse.cdt.codan.internal.checkers.LabelStatementNotFoundProblem=Error
+org.eclipse.cdt.codan.internal.checkers.LabelStatementNotFoundProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Label statement not found\\")"}
+org.eclipse.cdt.codan.internal.checkers.MagicNumberProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MagicNumberProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Avoid magic numbers\\")",checkArray\=>true,checkOperatorParen\=>true,exceptions\=>(1,0,-1,2,1.0,0.0,-1.0)}
+org.eclipse.cdt.codan.internal.checkers.MemberDeclarationNotFoundProblem=Error
+org.eclipse.cdt.codan.internal.checkers.MemberDeclarationNotFoundProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Member declaration not found\\")"}
+org.eclipse.cdt.codan.internal.checkers.MethodResolutionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.MethodResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Method cannot be resolved\\")"}
+org.eclipse.cdt.codan.internal.checkers.MissCaseProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MissCaseProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing cases in switch\\")"}
+org.eclipse.cdt.codan.internal.checkers.MissDefaultProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MissDefaultProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing default in switch\\")",defaultWithAllEnums\=>false}
+org.eclipse.cdt.codan.internal.checkers.MissReferenceProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MissReferenceProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing reference return value in assignment operator\\")"}
+org.eclipse.cdt.codan.internal.checkers.MissSelfCheckProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MissSelfCheckProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing self check in assignment operator\\")"}
+org.eclipse.cdt.codan.internal.checkers.MultipleDeclarationsProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.MultipleDeclarationsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Multiple variable declaration\\")"}
+org.eclipse.cdt.codan.internal.checkers.NamingConventionFunctionChecker=-Info
+org.eclipse.cdt.codan.internal.checkers.NamingConventionFunctionChecker.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Name convention for function\\")",pattern\=>"^[a-z]",macro\=>true,exceptions\=>()}
+org.eclipse.cdt.codan.internal.checkers.NoDiscardProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.NoDiscardProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Return value not evaluated\\")",macro\=>true}
+org.eclipse.cdt.codan.internal.checkers.NonVirtualDestructorProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.NonVirtualDestructorProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Class has a virtual method and non-virtual destructor\\")"}
+org.eclipse.cdt.codan.internal.checkers.OverloadProblem=Error
+org.eclipse.cdt.codan.internal.checkers.OverloadProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid overload\\")"}
+org.eclipse.cdt.codan.internal.checkers.RedeclarationProblem=Error
+org.eclipse.cdt.codan.internal.checkers.RedeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid redeclaration\\")"}
+org.eclipse.cdt.codan.internal.checkers.RedefinitionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.RedefinitionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid redefinition\\")"}
+org.eclipse.cdt.codan.internal.checkers.ReturnStyleProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.ReturnStyleProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Return with parenthesis\\")"}
+org.eclipse.cdt.codan.internal.checkers.ScanfFormatStringSecurityProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.ScanfFormatStringSecurityProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Format String Vulnerability\\")"}
+org.eclipse.cdt.codan.internal.checkers.ShallowCopyProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.ShallowCopyProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Miss copy constructor or assignment operator\\")",onlynew\=>false}
+org.eclipse.cdt.codan.internal.checkers.StatementHasNoEffectProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.StatementHasNoEffectProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Statement has no effect\\")",macro\=>true,exceptions\=>()}
+org.eclipse.cdt.codan.internal.checkers.StaticVariableInHeaderProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.StaticVariableInHeaderProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Static variable in header file\\")"}
+org.eclipse.cdt.codan.internal.checkers.SuggestedParenthesisProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.SuggestedParenthesisProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Suggested parenthesis around expression\\")",paramNot\=>false}
+org.eclipse.cdt.codan.internal.checkers.SuspiciousSemicolonProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.SuspiciousSemicolonProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Suspicious semicolon\\")",else\=>false,afterelse\=>false}
+org.eclipse.cdt.codan.internal.checkers.SymbolShadowingProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.SymbolShadowingProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Symbol shadowing\\")",paramFuncParameters\=>true}
+org.eclipse.cdt.codan.internal.checkers.TypeResolutionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.TypeResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Type cannot be resolved\\")"}
+org.eclipse.cdt.codan.internal.checkers.UnusedFunctionDeclarationProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.UnusedFunctionDeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused function declaration\\")",macro\=>true}
+org.eclipse.cdt.codan.internal.checkers.UnusedStaticFunctionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.UnusedStaticFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused static function\\")",macro\=>true}
+org.eclipse.cdt.codan.internal.checkers.UnusedVariableDeclarationProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.UnusedVariableDeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused variable declaration in file scope\\")",macro\=>true,exceptions\=>("@(\#)","$Id")}
+org.eclipse.cdt.codan.internal.checkers.UsingInHeaderProblem=-Warning
+org.eclipse.cdt.codan.internal.checkers.UsingInHeaderProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using directive in header\\")"}
+org.eclipse.cdt.codan.internal.checkers.VariableResolutionProblem=Error
+org.eclipse.cdt.codan.internal.checkers.VariableResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Symbol is not resolved\\")"}
+org.eclipse.cdt.codan.internal.checkers.VirtualMethodCallProblem=-Error
+org.eclipse.cdt.codan.internal.checkers.VirtualMethodCallProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Virtual method call in constructor/destructor\\")"}
