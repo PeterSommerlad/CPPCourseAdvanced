@@ -2,23 +2,6 @@
 
 Since you should normally use standard containers for objects that require heap allocation it is hard to create a useful exercise. 
 
-## Polyamoric Persons
-
-Take the example code for class Person from the slides and modify it to represent polyamoric relationships. Each person can have multiple other persons as partners. Children should only associated with their biological mother (to not complicate the situation, where a Person might participate in otherwise disjoint relationships). 
-
-Write useful test cases for the following relationships (all adults!):
-
-* (Peter <-> Sue <-> Mary <-> Tom) - all love each other
-* Sue's children: Steve, Amy
-* Mary's children: Fred, Bibi
-* (Fred <-> Amy)
-* (Steve <-> Fred) - but Steve does not love Amy
-* (Amy <-> Bibi)
-* (Tom <-> Bibi)
-
-A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
-B) What happens if Sue and Tom die? Are they really dead? You might implement a Tracer-like destructor to monitor this.
-C) Consider keeping a "Person-Registry" and model the relationships with a vector of plain pointers (or std::experimental::observer_ptr, jss::object_ptr) as an alternative solution.
 
 ## Topological Sort Problem
 
@@ -80,3 +63,22 @@ Optional:
     std::chrono::duration<double> delta=std::chrono::system_clock::now()-start;
     out << delta.count() << "s time\n";
 ====
+
+
+## Polyamoric Persons
+
+Take the example code for class Person from the slides and modify it to represent polyamoric relationships. Each person can have multiple other persons as partners. Children should only associated with their biological mother (to not complicate the situation, where a Person might participate in otherwise disjoint relationships). 
+
+Write useful test cases for the following relationships (all adults!):
+
+* (Peter <-> Sue <-> Mary <-> Tom) - all love each other
+* Sue's children: Steve, Amy
+* Mary's children: Fred, Bibi
+* (Fred <-> Amy)
+* (Steve <-> Fred) - but Steve does not love Amy
+* (Amy <-> Bibi)
+* (Tom <-> Bibi)
+
+A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
+B) What happens if Sue and Tom die? Are they really dead? You might implement a Tracer-like destructor to monitor this.
+C) Consider keeping a "Person-Registry" and model the relationships with a vector of plain pointers (or std::experimental::observer_ptr, jss::object_ptr) as an alternative solution.
