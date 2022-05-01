@@ -1,0 +1,21 @@
+<testsuites>
+	<testsuite name="AllTests" tests="17">
+		<testcase classname="AllTests" name="constructIndexableSet"/>
+		<testcase classname="AllTests" name="insertIntoIndexableSetAndIndexIt"/>
+		<testcase classname="AllTests" name="constructIndexableSetFromInitializerList"/>
+		<testcase classname="AllTests" name="constructIndexableSetFromRange"/>
+		<testcase classname="AllTests" name="IndexableSetIterators"/>
+		<testcase classname="AllTests" name="ReverseIteratorsIndexableSet"/>
+		<testcase classname="AllTests" name="checkFactorySimple"/>
+		<testcase classname="AllTests" name="checkFactoryGreaterSort"/>
+		<testcase classname="AllTests" name="checkFactoryFromIterators"/>
+		<testcase classname="AllTests" name="insertAndEraseElements"/>
+		<testcase classname="AllTests" name="findAndCount"/>
+		<testcase classname="AllTests" name="bounds_functions"/>
+		<testcase classname="AllTests" name="checkCTADSimple"/>
+		<testcase classname="AllTests" name="checkCTADGreaterSort"/>
+		<testcase classname="AllTests" name="checkCTADFromIterators"/>
+		<testcase classname="AllTests" name="checkCTADFromIteratorsGreater"/>
+		<testcase classname="AllTests" name="checkFactoryFromIteratorsGreater"/>
+	</testsuite>
+</testsuites>

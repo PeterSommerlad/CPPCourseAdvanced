@@ -72,7 +72,7 @@ Optional:
 ```
 
 
-## Polyamoric Persons
+## (optional - may be simpler) Polyamoric Persons
 
 Take the example code for class Person from the slides and modify it to represent polyamoric relationships. Each person can have multiple other persons as partners. Children should only associated with their biological mother (to not complicate the situation, where a Person might participate in otherwise disjoint relationships). 
 

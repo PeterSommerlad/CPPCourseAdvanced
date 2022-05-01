@@ -1,5 +1,5 @@
 <testsuites>
-	<testsuite name="AllTests" tests="12">
+	<testsuite name="AllTests" tests="13">
 		<testcase classname="AllTests" name="testNewModuleIsReady"/>
 		<testcase classname="AllTests" name="testAddRequiredModule"/>
 		<testcase classname="AllTests" name="testinput"/>
@@ -12,5 +12,10 @@
 		<testcase classname="AllTests" name="testOutputOfSchedule"/>
 		<testcase classname="AllTests" name="testCyclicDependencyThrows"/>
 		<testcase classname="AllTests" name="testPrintFromInput"/>
+		<testcase classname="AllTests" name="testTimingWithLargeCataolgue">
+			<failure message="../src/TopologicalSortTest.cpp:168 testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	1.75142	right:	1	">
+testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	1.75142	right:	1	
+			</failure>
+		</testcase>
 	</testsuite>
 </testsuites>

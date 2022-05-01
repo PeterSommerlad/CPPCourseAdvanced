@@ -5,6 +5,8 @@
 #include "cute_runner.h"
 
 #include <sstream>
+#include <fstream>
+#include <chrono>
 
 void testNewModuleIsReady(){
   ModuleNode m{"Math"};
@@ -155,6 +157,17 @@ void testPrintFromInput(){
 }
 
 
+void testTimingWithLargeCataolgue(){
+  using namespace std::literals::chrono_literals;
+  std::ostringstream out{};
+  auto start=std::chrono::system_clock::now();
+  // do your stuff
+  std::ifstream input{"LargeCatalogue.txt"};
+  print_semester_topological(input,out);
+  std::chrono::duration<double> delta=std::chrono::system_clock::now()-start;
+  ASSERT_LESS(delta.count(), (1s).count());
+}
+
 
 
 bool runAllTests(int argc, char const *argv[]) {
@@ -172,6 +185,7 @@ bool runAllTests(int argc, char const *argv[]) {
 	s.push_back(CUTE(testOutputOfSchedule));
 	s.push_back(CUTE(testCyclicDependencyThrows));
 	s.push_back(CUTE(testPrintFromInput));
+	s.push_back(CUTE(testTimingWithLargeCataolgue));
 	cute::xml_file_opener xmlfile(argc, argv);
 	cute::xml_listener<cute::ide_listener<>> lis(xmlfile.out);
 	auto runner = cute::makeRunner(lis, argc, argv);

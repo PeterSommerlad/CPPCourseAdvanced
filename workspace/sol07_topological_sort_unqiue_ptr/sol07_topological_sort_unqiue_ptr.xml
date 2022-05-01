@@ -1,0 +1,21 @@
+<testsuites>
+	<testsuite name="AllTests" tests="13">
+		<testcase classname="AllTests" name="testNewModuleIsReady"/>
+		<testcase classname="AllTests" name="testAddRequiredModule"/>
+		<testcase classname="AllTests" name="testinput"/>
+		<testcase classname="AllTests" name="testPartitionLevel1"/>
+		<testcase classname="AllTests" name="testPartitionLevel2"/>
+		<testcase classname="AllTests" name="testPartitionLevel3"/>
+		<testcase classname="AllTests" name="testPartitionLevel4"/>
+		<testcase classname="AllTests" name="testPartitionLevel5"/>
+		<testcase classname="AllTests" name="testScheduleAll"/>
+		<testcase classname="AllTests" name="testOutputOfSchedule"/>
+		<testcase classname="AllTests" name="testCyclicDependencyThrows"/>
+		<testcase classname="AllTests" name="testPrintFromInput"/>
+		<testcase classname="AllTests" name="testTimingWithLargeCataolgue">
+			<failure message="../src/TopologicalSortTest.cpp:168 testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	2.26329	right:	1	">
+testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	2.26329	right:	1	
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
