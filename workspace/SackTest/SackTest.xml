@@ -9,10 +9,6 @@
 		<testcase classname="AllTests" name="SackSpecialSpecialization::testmakeSackCharPtr"/>
 		<testcase classname="AllTests" name="testSackFromIter"/>
 		<testcase classname="AllTests" name="testSackWith2ValuesThatAreNotIterators"/>
-		<testcase classname="AllTests" name="testSackWithSizeAndValueDeduces">
-			<failure message="/Users/sop/Documents/talks/Firmenkurse/workshop/sources/CPPCourseAdvanced/src/SackTest.cpp:31 testSackWithSizeAndValueDeduces: &quot;Helllo&quot; == s.getOut() expected:	Helllo	but was:	Hello	">
-testSackWithSizeAndValueDeduces: &quot;Helllo&quot; == s.getOut() expected:	Helllo	but was:	Hello	
-			</failure>
-		</testcase>
+		<testcase classname="AllTests" name="testSackWithSizeAndValueDeduces"/>
 	</testsuite>
 </testsuites>
