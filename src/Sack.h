@@ -29,9 +29,14 @@ public:
 #if __cplusplus >= 201703L
   explicit Sack(std::initializer_list<T> l):theSack{l}{}
   Sack() = default;
+  template <typename ITER>
+  Sack(ITER b, ITER e):theSack(b,e) {}
+  Sack(size_type n, T const & element): theSack(n,element){}
 #endif
   //...
 };
+template <typename ITER>
+  Sack(ITER b, ITER e) -> Sack<typename std::iterator_traits<ITER>::value_type  >;
 template <typename T>
 T Sack<T>::getOut() & {
   using difference_type=typename SackType::difference_type;

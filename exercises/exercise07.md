@@ -72,20 +72,58 @@ Optional:
 ```
 
 
-## (optional - may be simpler) Polyamoric Persons
+## (optional - may be simpler) Social Media Followers
 
-Take the example code for class Person from the slides and modify it to represent polyamoric relationships. Each person can have multiple other persons as partners. Children should only associated with their biological mother (to not complicate the situation, where a Person might participate in otherwise disjoint relationships). 
+Take the example code for class Person from the slides and modify it to represent social media follower relationships. Each person can have multiple other persons as followers and can follow others. It might be best to keep track of all members with a data structure that holds the constructed Persons. Implement the following functionalities:
 
-Write useful test cases for the following relationships (all adults!):
+* follow (otherPerson) - ensure that one cannot follow oneself
+* unfollow (otherPerson)
+* listFollowers(std::ostream &)
+* listFollowing(std::ostream &)
+* block(otherPerson) --> ensure that otherPerson no longer follows and that this no longer follows otherPerson
+* ban(Person) - as a function on the global registry. ensure that nobody can follow Person and that Person is actually deleted.
 
-* (Peter <-> Sue <-> Mary <-> Tom) - all love each other
-* Sue's children: Steve, Amy
-* Mary's children: Fred, Bibi
-* (Fred <-> Amy)
-* (Steve <-> Fred) - but Steve does not love Amy
-* (Amy <-> Bibi)
-* (Tom <-> Bibi)
+Write useful test cases for the following relationships
+
+* (Peter <-> Fred <-> Steve ) - all follow each other and back
+* (Fred <-> Amy) - follow each other
+* (Amy -> Bibi) - Amy follows Bibi
+* (Tom -> Bibi) - Tom follows Bibi
+* (Peter -> Bibi) - Peter follows Bibi
+
+My implementation would print out that followership as:
+
+```
+Peter
+   follows    : Fred, Steve, Bibi, 
+   followedBy : Fred, Steve, 
+
+Fred
+   follows    : Peter, Steve, Amy, 
+   followedBy : Peter, Steve, 
+
+Steve
+   follows    : Peter, Fred, 
+   followedBy : Peter, Fred, 
+
+Amy
+   follows    : Bibi, 
+   followedBy : Fred, 
+
+Tom
+   follows    : Bibi, 
+   followedBy : 
+
+Bibi
+   follows    : 
+   followedBy : Peter, Amy, Tom, 
+
+```
+
 
 A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
-B) What happens if Sue and Tom die? Are they really dead? You might implement a Tracer-like destructor to monitor this.
-C) Consider keeping a "Person-Registry" and model the relationships with a vector of plain pointers (or std::experimental::observer_ptr, jss::object_ptr) as an alternative solution.
+B) Model that Steve blocks Fred. (neither Steve follows Fred, nor Fred follows Steve)
+C) Model that Peter unfollows Fred.
+D) Model that Bibi is banned.
+
+For the test cases you can write a function that set ups the followers initially for each test. Start with testing A single Person, the two Persons etc.

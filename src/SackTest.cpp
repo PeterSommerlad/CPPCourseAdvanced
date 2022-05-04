@@ -16,6 +16,23 @@ void testSackWithPointersShouldntCompile(){
 	//Sack<int *> shouldNotCompile;
 	Sack<char const *> shouldkeepStrings;
 }
+void testSackFromIter(){
+  std::vector v{1,3,4,5};
+  Sack s(std::begin(v),std::end(v));
+  ASSERT_EQUAL(std::size(v),s.size());
+}
+void testSackWith2ValuesThatAreNotIterators(){
+	 Sack<int> s(10,2);
+	 ASSERT_EQUAL(10,s.size());
+}
+void testSackWithSizeAndValueDeduces(){
+  Sack s(5u,std::string("Hello"));
+  ASSERT_EQUAL(5,s.size());
+  ASSERT_EQUAL("Hello", s.getOut());
+}
+
+
+
 namespace SimpleSack {
 template <typename T>
 class Sack
@@ -70,6 +87,8 @@ void testmakeSackInt(){
 	auto sack{makeSack({1,2,3,4,5,6})};
 	ASSERT_EQUAL(6,sack.size());
 }
+
+
 void testmakeSackCharPtr(){
 	auto sack{makeSack({"Hello",",","World","!"})};
 	ASSERT_EQUAL(4,sack.size());
@@ -200,6 +219,9 @@ void runAllTests(int argc, char const *argv[]){
 	s.push_back(CUTE(SimpleSack::testmakeSackInt));
 	s.push_back(CUTE(SimpleSack::testmakeSackCharPtr));
 	s.push_back(CUTE(SackSpecialSpecialization::testmakeSackCharPtr));
+	s.push_back(CUTE(testSackFromIter));
+	s.push_back(CUTE(testSackWith2ValuesThatAreNotIterators));
+	s.push_back(CUTE(testSackWithSizeAndValueDeduces));
 	cute::xml_file_opener xmlfile(argc,argv);
 	cute::xml_listener<cute::ide_listener<> >  lis(xmlfile.out);
 	cute::makeRunner(lis,argc,argv)(s, "AllTests");
