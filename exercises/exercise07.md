@@ -121,9 +121,9 @@ Bibi
 ```
 
 
-A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
-B) Model that Steve blocks Fred. (neither Steve follows Fred, nor Fred follows Steve)
-C) Model that Peter unfollows Fred.
-D) Model that Bibi is banned.
+- A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
+- B) Model that Steve blocks Fred. (neither Steve follows Fred, nor Fred follows Steve)
+- C) Model that Peter unfollows Fred.
+- D) Model that Bibi is banned.
 
 For the test cases you can write a function that set ups the followers initially for each test. Start with testing A single Person, the two Persons etc.
