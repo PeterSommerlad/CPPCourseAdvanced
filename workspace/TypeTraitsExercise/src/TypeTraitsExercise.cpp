@@ -4,12 +4,24 @@
 #include <iostream>
 #include <string>
 #include <cxxabi.h> // __cxa_demangle
+#include <memory>
 
+struct C_deleter{
+  template<typename T>
+  void operator()(T *p){
+    ::free(const_cast<std::remove_const_t<T>*>(p));
+  }
+};
+template<typename T>
+using unique_C_ptr = std::unique_ptr<T, C_deleter>;
 
 std::string demangle(char const *name){
-  char *toBeFreed = __cxxabiv1::__cxa_demangle(name,0,0,0);
-  std::string result(toBeFreed);
-  ::free(toBeFreed);
+  using namespace std; // OK locally
+  std::unique_ptr<char const> toBeFreed { __cxxabiv1::__cxa_demangle(name,0,0,0)};
+  std::string result(toBeFreed.get());
+
+  ///... exception or return --> leak
+  //::free(toBeFreed);
   return result;
 }
 
@@ -56,6 +68,7 @@ void output_traits_for_types(std::ostream &out){
 
 int main() {
   struct Base{ virtual ~Base()=0;};
-  output_traits_for_types<bool,int, int&, int const &, int *, void, void *, std::string, Base>(std::cout);
+  output_traits_for_types<bool>(std::cout);
+ // output_traits_for_types<bool,int, int&, int const &, int *, void, void *, std::string, Base>(std::cout);
   std::cout << "---------------------------------------------------\n";
 }
