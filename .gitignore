@@ -32,3 +32,6 @@
 *.app
 .DS_Store
 /Debug/
+
+# root
+workspace/root4werner
