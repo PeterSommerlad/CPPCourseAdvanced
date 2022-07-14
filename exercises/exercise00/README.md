@@ -12,7 +12,7 @@ Goals of this exercise:
 First we are setting up our laptops and you will exercise to use Cevelop and the C++ compiler. 
 It is recommended to use the Virtual Machine provided to you.
 
-Alternatively, you can install Cevelop and a suitable compiler on your system natively for convenience and performance reasons. Check the setup instructions here: [Setup Instructions](./manualsetupenvironment.md)
+Alternatively, you can install Cevelop and a suitable compiler on your system natively for convenience and performance reasons. Check the setup instructions here: [Setup Instructions](https://github.com/PeterSommerlad/CPPCourseIntroduction/blob/main/exercises/manualsetupenvironment.md)
 
 
 ## Exercises
@@ -44,7 +44,7 @@ Create a C++ project (Hello World Executable Project) in Cevelop, compile and ru
 
 ### Hello World with separate Compilation Unit
 
-  - Create a single C++ project with [Header](../src/hellolib/sayhello.h), [Implementation](../src/hellolib/sayhello.cpp) and [Main Program](../src/hellomain/hellomain.cpp)
+  - Create a single C++ project with [Header](https://github.com/PeterSommerlad/CPPCourseIntroduction/tree/main/src/hellolib/sayhello.h), [Implementation](https://github.com/PeterSommerlad/CPPCourseIntroduction/tree/main/src/hellolib/sayhello.cpp) and [Main Program](https://github.com/PeterSommerlad/CPPCourseIntroduction/tree/main/src/hellomain/hellomain.cpp)
   - Compiling the code:
     - Build your project (Hammer icon in Cevelop).
     - Do you get any errors?
