@@ -24,4 +24,4 @@ Take a look at the some classes from the standard library and decide which of th
 * [`std::lock_guard`](https://en.cppreference.com/w/cpp/thread/lock_guard)
   * scoped manager
  
-Not in this list are relation types, but we mentioned all the obvious ones from the standard library: `std::string_view, std::span, std::reference_wrapper`
+None in this list are relation types, but we mentioned all the obvious class types from the standard library: `std::string_view, std::span, std::reference_wrapper`
