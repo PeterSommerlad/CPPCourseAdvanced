@@ -50,11 +50,11 @@ void testSackWithPointersShouldntCompile(){
 
 ## A vector with backward indexing using negative indices
 
-The goal is to a) get familiar with the standard library's container interface and b) to exercise writing a template class.
+The goal is to a) get familiar with the standard library's container interface and b) to exercise writing a class template.
 
 Many scripting languages allow dynamic arrays to be indexed with negative indices where `a[-1] ` denotes the last element in the array`a[size-1] `  and `a[-size] ` the first element `a[0] `.
 
-Create a template class dynArray<T> that uses a std::vector<T> as a member (not as a super class) for its implementation. Implement the indexing member functions similar to std::vector for dynArray in a way that negative indices are allowed and every index access is actually bounds checked (use std::vector's facility for that).
+Create a class template dynArray<T> that uses a std::vector<T> as a member (not as a super class) for its implementation. Implement the indexing member functions similar to std::vector for dynArray in a way that negative indices are allowed and every index access is actually bounds checked (use std::vector's facility for that).
 
 *  Provide constructors for the following initializations, as it would be with std::vector (ignore allocator argument versions of std::vector) :
 ```
@@ -67,9 +67,9 @@ dynArray<std::string> a3(std::istream_iterator<std::string>{std::cin},std::istre
    or provide deduction guides, initialize a dynarray without needing to specify the template argument.
 
 
-*  Create Unit Tests for all of your template class' behaviors. Best, one or more tests for a feature, before you implement it.
-  *  Use different element types for your template class in the tests to prove that it works with different instantiations
-  *  you must implement your class in a header file (dynArray.h) in the unit test project, a separate library won't work easily, because a template class lacks a .cpp file with content the linker is happy with.
+*  Create Unit Tests for all of yourclass template's behaviors. Best, one or more tests for a feature, before you implement it.
+  *  Use different element types for your class template in the tests to prove that it works with different instantiations
+  *  you must implement your class in a header file (dynArray.h) in the unit test project, a separate library won't work easily, because a class template lacks a .cpp file with content the linker is happy with.
 
 The following functions of std::vector you **should not implement**:
 *  allocator template parameter and functions using it
@@ -84,7 +84,7 @@ The following functions of std::vector you **should not implement**:
 *  `comparison operators`
 *  all rvalue-reference overloads (unless you want to)
 
-But you must implement all other members of std::vector by delegating to the corresponding member functions of your template class' data member of type std::vector.
+But you must implement all other members of `std::vector` by delegating to the corresponding member functions of your class template's data member of type std::vector.
 
 
 ## indexableSet class template (optional)
@@ -100,7 +100,7 @@ Write Test cases and implementation code for `indexableSet` for the following as
 *  Allow instantiating `indexableSet` with a different compare functor. Demonstrate that with a test case with your own `caselessCompare` functor for `std::string`. (`indexableSet<std::string, caselessCompare>`)
 
 **Note:**
-*  Implement the template class `indexableSet` as header-only (`indexableSet.h`) within your CUTE test project.
+*  Implement the class template `indexableSet` as header-only (`indexableSet.h`) within your CUTE test project.
 *  Remember the rules for class templates inheriting from a class that also depends on a template parameter! Otherwise interesting effects for name lookup might happen. Omitting that will cause you to fail!
 *  When inheriting constructors from a base class, you will not inherit the deduction guides. Therefore, you will not be able to omit the class template arguments when using `indexableSet` in your tests.
 
@@ -110,7 +110,7 @@ Write Test cases and implementation code for `indexableSet` for the following as
 
 Can you help the following student with his C++ template problems?
 
-> I have a simple template class that holds a collection of values but sometimes code using the class crashes. I've written as simple test for the class, which works, but I do get a warning about a signed/unsigned mismatch on the for loop. I though using auto would stop that. Is that anything to do with the crash? I've commented out all the other methods apart from add and remove.
+> I have a simple class template that holds a collection of values but sometimes code using the class crashes. I've written as simple test for the class, which works, but I do get a warning about a signed/unsigned mismatch on the for loop. I though using auto would stop that. Is that anything to do with the crash? I've commented out all the other methods apart from add and remove.
 
 --- values.h ---
 ```cpp
