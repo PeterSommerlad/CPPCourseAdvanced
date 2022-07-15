@@ -3,7 +3,7 @@
 #define RANGE_COUNTER_H_
 
 #include <iterator>    // for iterator_traits
-
+#include <cstddef>
 
 
 namespace ps_counter {

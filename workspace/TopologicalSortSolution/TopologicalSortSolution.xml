@@ -13,8 +13,8 @@
 		<testcase classname="AllTests" name="testCyclicDependencyThrows"/>
 		<testcase classname="AllTests" name="testPrintFromInput"/>
 		<testcase classname="AllTests" name="testTimingWithLargeCataolgue">
-			<failure message="../src/TopologicalSortTest.cpp:168 testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	1.75142	right:	1	">
-testTimingWithLargeCataolgue: delta.count() &lt; (1s).count() left:	1.75142	right:	1	
+			<failure message="../src/TopologicalSortTest.cpp:168 testTimingWithLargeCataolgue: delta/1.s &lt; 1. left:	1.66248	right:	1	">
+testTimingWithLargeCataolgue: delta/1.s &lt; 1. left:	1.66248	right:	1	
 			</failure>
 		</testcase>
 	</testsuite>

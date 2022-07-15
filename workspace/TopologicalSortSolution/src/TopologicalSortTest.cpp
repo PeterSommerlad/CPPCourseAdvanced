@@ -165,7 +165,7 @@ void testTimingWithLargeCataolgue(){
   std::ifstream input{"LargeCatalogue.txt"};
   print_semester_topological(input,out);
   std::chrono::duration<double> delta=std::chrono::system_clock::now()-start;
-  ASSERT_LESS(delta.count(), (1s).count());
+  ASSERT_LESS(delta/1.s, 1.); // spuriously fail deliberately to see actual run time
 }
 
 

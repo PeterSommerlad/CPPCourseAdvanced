@@ -18,7 +18,7 @@ struct ModuleNode {
   struct AllModules {
     std::vector<ModuleNodePtr> all{};
     AllModules() = default;
-    AllModules(std::istream &in);
+    explicit AllModules(std::istream &in);
 
     bool contains(std::string modulename) const {
       return any_of(cbegin(all), cend(all), [modulename](auto const &nodeptr){

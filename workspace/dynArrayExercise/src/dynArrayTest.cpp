@@ -83,7 +83,7 @@ void reverse_iterator_functions(){
   ASSERT_EQUAL("4321",s);
 }
 void nonconst_reverse_iterator_functions(){
-  dynArray<int> da{4,3,2,1};
+  dynArray da{4,3,2,1}; // only works with ctor implemented, otherwise add {} around initializer_list
   *da.rbegin() = 42;
   ASSERT_EQUAL(42,da.at(-1));
   *(da.rend()-1) = 42;
@@ -91,7 +91,7 @@ void nonconst_reverse_iterator_functions(){
 }
 
 void const_iterator_functions_availability(){
-  dynArray<char> da{'p','e','t','e','r'};
+  dynArray da{'p','e','t','e','r'};// only works with ctor implemented, otherwise add {} around initializer_list
   std::string peter{da.cbegin(),da.cend()};
   std::string retep{da.crbegin(),da.crend()};
   ASSERT_EQUAL("peter",peter);
