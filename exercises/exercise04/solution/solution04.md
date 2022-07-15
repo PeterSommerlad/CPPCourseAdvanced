@@ -27,8 +27,8 @@ void ratioplot2() {
 From what we have learned on not using raw pointers, what potential problems can you identify in these few lines and how could you try to change it?
 
 
-1 `gstyle` seems to be a global pointer variable, it would be better passed as a reference parameter
-2 the lines using `new` expressions would better use `std::make_unique<Type>()` instead to avoid memory leaks
+1. `gstyle` seems to be a global pointer variable, it would be better passed as a reference parameter
+2. the lines using `new` expressions would better use `std::make_unique<Type>()` instead to avoid memory leaks
   (unless there is magic in the root framework, where the type's constructors somehow register their pointers to be deleted later, which is a brittle idea)
 
 
