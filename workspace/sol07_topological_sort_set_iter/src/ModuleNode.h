@@ -10,7 +10,8 @@
 #include <iosfwd>
 #include <functional>
 
-constexpr auto ModuleStringLess { [] (auto const &l, auto const &r){
+// constexpr variable is not implicitly inline
+constexpr inline auto ModuleStringLess { [] (auto const &l, auto const &r){
   if constexpr (std::is_same_v<decltype(l),decltype(r)>){
       return l < r;
   } else if constexpr(std::is_same_v<std::string const &, decltype (r)>){

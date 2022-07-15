@@ -2,15 +2,15 @@
 #include "ide_listener.h"
 #include "xml_listener.h"
 #include "cute_runner.h"
-
+#include <type_traits>
 template<typename T>
 struct safeVector:std::vector<T> {
 using std::vector<T>::vector;
 using size_type=typename std::vector<T>::size_type;
-decltype(auto) operator[](size_type i) & { // or T&
+decltype(auto) operator[](size_type i) & {
 	return this->at(i);
 }
-decltype(auto) operator[](size_type i) const & { // or T const &
+decltype(auto) operator[](size_type i) const & {
 	return this->at(i);
 }
 T& front() & {
@@ -30,10 +30,13 @@ T const & back() const & {
 template<typename ITER>
 safeVector(ITER,ITER) -> safeVector<typename std::iterator_traits<ITER>::value_type>;
 template<typename T>
-safeVector(std::initializer_list<T>) -> safeVector<T>;
+safeVector(typename safeVector<T>::size_type,T const &) -> safeVector<T>;
 template<typename T>
-safeVector(typename safeVector<T>::size_type,T) -> safeVector<T>;
-
+safeVector(std::initializer_list<T>) -> safeVector<T>;
+// the following is a bit cheating:
+template<typename T1, typename T2, typename...T>
+safeVector(T1 const &, T2 const &, T const &...)
+  -> safeVector<std::common_type_t<T1, T2,T...>>;
 void constructSafeVector() {
 	safeVector<int> sv{};
 	ASSERT_EQUAL(0,sv.size());
@@ -73,18 +76,19 @@ void cantChangeWithConstVector(){
 	//sv[2]=""; // shouldn't compile
 }
 
+// following must be line 80:
 void FrontWorksWithLValue(){
-  safeVector v{1,2,3};
+  safeVector v{{1,2,3}};
   ASSERT_EQUAL(1,v.front());
 }
 void FrontOnEmptyThrows(){
-  safeVector v{1,2,3};
+  safeVector v{{1,2,3}};
   v.clear();
   ASSERT_THROWS(v.front(),std::out_of_range);
 }
 
 void BackWorksWithLValue(){
-  safeVector v{1,2,3};
+  safeVector v{{1,2,3}};
   ASSERT_EQUAL(3,v.back());
 }
 void BacktOnEmptyThrows(){

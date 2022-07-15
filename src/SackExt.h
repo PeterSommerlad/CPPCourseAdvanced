@@ -33,12 +33,12 @@ public:
     theSack.erase(iter);
     return retval;
   }
-  template <typename Elt>
-  explicit operator std::vector<Elt>() const {
-    return std::vector<Elt>{begin(theSack),end(theSack)};
-  }
   template <typename Elt=T>
   std::vector<Elt> asVector() const {
+    return std::vector<Elt>{begin(theSack),end(theSack)};
+  }
+  template <typename Elt>
+  explicit operator std::vector<Elt>() const {
     return std::vector<Elt>{begin(theSack),end(theSack)};
   }
 };
