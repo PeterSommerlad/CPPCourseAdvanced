@@ -17,8 +17,8 @@ using unique_C_ptr = std::unique_ptr<T, C_deleter>;
 
 std::string demangle(char const *name){
   using namespace std; // OK locally
-  std::unique_ptr<char const> toBeFreed { __cxxabiv1::__cxa_demangle(name,0,0,0)};
-  std::string result(toBeFreed.get());
+  unique_C_ptr<char const> toBeFreed { __cxxabiv1::__cxa_demangle(name,0,0,0)};
+  std::string result( toBeFreed.get() );
 
   ///... exception or return --> leak
   //::free(toBeFreed);
@@ -28,8 +28,8 @@ std::string demangle(char const *name){
 
 template<typename TEST,template<typename>typename TRAIT, typename ...REST>
 void output_trait(std::ostream &out, TRAIT<TEST> trait, REST...args){
-  out << demangle(typeid(TEST).name()) << "'s trait "
-      << demangle(typeid(TRAIT<TEST>).name()) << " is "
+  out << /*demangle*/(typeid(TEST).name()) << "'s trait "
+      << /*demangle*/(typeid(TRAIT<TEST>).name()) << " is "
       << std::boolalpha
       << trait
       << '\n';
@@ -69,6 +69,6 @@ void output_traits_for_types(std::ostream &out){
 int main() {
   struct Base{ virtual ~Base()=0;};
   output_traits_for_types<bool>(std::cout);
- // output_traits_for_types<bool,int, int&, int const &, int *, void, void *, std::string, Base>(std::cout);
+  output_traits_for_types<bool,int, int&, int const &, int *, void, void *, std::string, Base>(std::cout);
   std::cout << "---------------------------------------------------\n";
 }
