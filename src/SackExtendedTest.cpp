@@ -113,6 +113,13 @@ void makeOtherSackWithContainer(){
   ASSERT_EQUAL(3,setsack.size());
 }
 
+t
+emplate<template<typename ...> class container,typename T>
+using SomeSack = Sack<T,container>;
+
+SomeSack<std::list,int> xx{1,2,3,4};
+//SomeSack<std::list> xz{1,2,3,4}; // not same as function template argument deduction
+
 
 
 
@@ -144,7 +151,7 @@ void makeSetSackFromIterators(){
 }
 
 void SetSackAliasCTAD(){
-  SetSack setsack{{1,2,3,4,5}}; // implicit deduction guide OK
+  SetSack<int> setsack{{1,2,3,4,5}}; // implicit deduction guide OK?
   static_assert(std::is_same_v<Sack<int,std::set>,decltype(setsack)>);
   ASSERT_EQUAL(5, setsack.size());
   ASSERT_EQUAL((std::vector{1,2,3,4,5}),setsack.asVector());
