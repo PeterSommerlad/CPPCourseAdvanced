@@ -4,4 +4,4 @@
 * [exercises](https://github.com/PeterSommerlad/CPPCourseAdvanced/tree/main/exercises), and 
 * [source code examples](https://github.com/PeterSommerlad/CPPCourseAdvanced/tree/main/src) for C++ Advanced
 
-Unless otherwise stated for specific subdirectories, the material in this repository is (c) copyright Peter Sommerlad and intended for participants of my training.
+The material in this repository is intended for participants of my C++ trainings and (c) copyright Peter Sommerlad, unless otherwise noted.
