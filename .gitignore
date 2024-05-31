@@ -33,6 +33,7 @@
 .DS_Store
 /Debug/
 .settings
+language.settings.xml
 
 # root
 workspace/root4werner

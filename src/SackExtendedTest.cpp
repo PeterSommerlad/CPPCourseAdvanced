@@ -113,8 +113,7 @@ void makeOtherSackWithContainer(){
   ASSERT_EQUAL(3,setsack.size());
 }
 
-t
-emplate<template<typename ...> class container,typename T>
+template<template<typename ...> class container,typename T>
 using SomeSack = Sack<T,container>;
 
 SomeSack<std::list,int> xx{1,2,3,4};
