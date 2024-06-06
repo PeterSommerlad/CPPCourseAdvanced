@@ -83,6 +83,8 @@ Take the example code for class Person from the slides and modify it to represen
 * block(otherPerson) --> ensure that otherPerson no longer follows and that this no longer follows otherPerson
 * ban(Person) - as a function on the global registry. ensure that nobody can follow Person and that Person is actually deleted.
 
+To get a head start, see the File with tests SocialMediaGraphTest.cpp in this directory.
+
 Write useful test cases for the following relationships
 
 * (Peter <-> Fred <-> Steve ) - all follow each other and back
