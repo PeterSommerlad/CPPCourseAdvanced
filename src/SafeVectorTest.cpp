@@ -27,8 +27,10 @@ T const & back() const & {
 }
 };
 // needs deduction guide
+//template<typename ITER>
+//safeVector(ITER,ITER) -> safeVector<typename std::iterator_traits<ITER>::value_type>;
 template<typename ITER>
-safeVector(ITER,ITER) -> safeVector<typename std::iterator_traits<ITER>::value_type>;
+safeVector(ITER,ITER) -> safeVector<std::iter_value_t<ITER>>;
 template<typename T>
 safeVector(typename safeVector<T>::size_type,T const &) -> safeVector<T>;
 template<typename T>

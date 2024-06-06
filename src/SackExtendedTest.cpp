@@ -150,7 +150,7 @@ void makeSetSackFromIterators(){
 }
 
 void SetSackAliasCTAD(){
-  SetSack<int> setsack{{1,2,3,4,5}}; // implicit deduction guide OK?
+  SetSack setsack{{1,2,3,4,5}}; // implicit deduction guide OK? yes for C++20 and gcc or clang>19
   static_assert(std::is_same_v<Sack<int,std::set>,decltype(setsack)>);
   ASSERT_EQUAL(5, setsack.size());
   ASSERT_EQUAL((std::vector{1,2,3,4,5}),setsack.asVector());
@@ -158,7 +158,7 @@ void SetSackAliasCTAD(){
 
 void SetSackAliasCTADFromIteratorsDoesNotWork(){
   std::vector v{1,2,3,4};
-  SetSack<int> setsack(begin(v),end(v)); // must specify template argument
+  SetSack setsack(begin(v),end(v)); // must specify template argument for Clang compiler
   static_assert(std::is_same_v<Sack<int,std::set>,decltype(setsack)>);
   ASSERT_EQUAL(4, setsack.size());
   ASSERT_EQUAL((std::vector{1,2,3,4}),setsack.asVector());

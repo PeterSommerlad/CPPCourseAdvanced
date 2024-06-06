@@ -45,8 +45,8 @@ public:
 
 
 template<typename ITER, template<typename ...> typename container=std::vector>
-Sack(ITER,ITER)->Sack<typename std::iterator_traits<ITER>::value_type, container>;
-
+Sack(ITER,ITER)->Sack<std::iter_value_t<ITER>, container>;
+//pre C++20: ->Sack<typename std::iterator_traits<ITER>::value_type, container>
 
 template<typename T>
 Sack<T> makeSack(std::initializer_list<T> list) {
