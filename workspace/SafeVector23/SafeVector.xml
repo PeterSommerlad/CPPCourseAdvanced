@@ -1,0 +1,15 @@
+<testsuites>
+	<testsuite name="AllTests" tests="11">
+		<testcase classname="AllTests" name="constructSafeVector"/>
+		<testcase classname="AllTests" name="constructFromInitializerList"/>
+		<testcase classname="AllTests" name="constructFromIterators"/>
+		<testcase classname="AllTests" name="throwsWithLargeIndex"/>
+		<testcase classname="AllTests" name="canChangeWithIndex"/>
+		<testcase classname="AllTests" name="cantChangeWithConstVector"/>
+		<testcase classname="AllTests" name="throwsWhenEmpty"/>
+		<testcase classname="AllTests" name="FrontWorksWithLValue"/>
+		<testcase classname="AllTests" name="FrontOnEmptyThrows"/>
+		<testcase classname="AllTests" name="BackWorksWithLValue"/>
+		<testcase classname="AllTests" name="BacktOnEmptyThrows"/>
+	</testsuite>
+</testsuites>

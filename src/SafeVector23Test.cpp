@@ -7,23 +7,14 @@ template<typename T>
 struct safeVector:std::vector<T> {
 using std::vector<T>::vector;
 using size_type=typename std::vector<T>::size_type;
-decltype(auto) operator[](size_type i) & {
-	return this->at(i);
+decltype(auto) operator[](this auto& self, size_type i) {
+	return self.at(i);
 }
-decltype(auto) operator[](size_type i) const & {
-	return this->at(i);
+decltype(auto) front(this auto &self)  {
+  return self.at(0);
 }
-T& front() & {
-  return this->at(0);
-}
-T const & front() const & {
-  return this->at(0);
-}
-T& back() & {
-  return this->at(this->size()-1);
-}
-T const & back() const & {
-  return this->at(this->size()-1);
+decltype(auto) back(this auto &self) {
+  return self.at(self.size()-1);
 }
 };
 // needs deduction guide

@@ -134,6 +134,7 @@ void createOtherSack() {
 }
 
 
+
 void makeSetSackFromInitList(){
   auto setsack { makeSetSack({1,2,3,4})};
   static_assert(std::is_same_v<Sack<int,std::set>,decltype(setsack)>);
@@ -158,7 +159,7 @@ void SetSackAliasCTAD(){
 
 void SetSackAliasCTADFromIteratorsDoesNotWork(){
   std::vector v{1,2,3,4};
-  SetSack setsack(begin(v),end(v)); // must specify template argument for Clang compiler
+  SetSack setsack(begin(v),end(v)); // alias deduction guide Ok, but not for clang <19
   static_assert(std::is_same_v<Sack<int,std::set>,decltype(setsack)>);
   ASSERT_EQUAL(4, setsack.size());
   ASSERT_EQUAL((std::vector{1,2,3,4}),setsack.asVector());
