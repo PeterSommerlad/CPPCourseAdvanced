@@ -22,13 +22,14 @@ void doread(std::istream &in, FIRST &var, I&...vars) {
 
 template<typename ...I>
 void readln(std::istream &in, I&...vars) {
-	using namespace readln_impl;
-	std::string line { };
-	getline(in, line);
-	std::istringstream input { line };
-	doread(input, vars...);
-	if (input.fail())
-		in.setstate(std::ios::failbit);
+  (in >> ... >> vars);
+//	using namespace readln_impl;
+//	std::string line { };
+//	getline(in, line);
+//	std::istringstream input { line };
+//	doread(input, vars...);
+//	if (input.fail())
+//		in.setstate(std::ios::failbit);
 }
 
 #endif /* READLN_H_ */

@@ -30,7 +30,7 @@ void Values<T>::add(T t) &
 template <typename T>
 bool Values<T>::remove(T t) &
 {
-#if 0
+#if 1
   bool found{false};
   for (auto i = 0u; i != v.size(); ++i)
   {

@@ -62,7 +62,8 @@ public:
 };
 
 template <typename Iter>
-dynArray(Iter begin, Iter end) -> dynArray<typename std::iterator_traits<Iter>::value_type>;
+//dynArray(Iter begin, Iter end) -> dynArray<typename std::iterator_traits<Iter>::value_type>;
+dynArray(Iter begin, Iter end) -> dynArray<std::iter_value_t<Iter>>;
 
 template<typename T>
 dynArray<T> make_dynArray(std::initializer_list<T> l) {

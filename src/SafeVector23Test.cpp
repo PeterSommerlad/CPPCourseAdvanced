@@ -8,7 +8,7 @@ struct safeVector:std::vector<T> {
 using std::vector<T>::vector;
 using size_type=typename std::vector<T>::size_type;
 decltype(auto) operator[](this auto& self, size_type i) {
-	return self.at(i);
+  return self.at(i);
 }
 decltype(auto) front(this auto &self)  {
   return self.at(0);

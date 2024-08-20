@@ -10,11 +10,11 @@ void rotate3ints() {
 	int a { 1 };
 	int b { 2 };
 	int c { 3 };
-	auto expected = std::make_tuple(2, 3, 1);
-
+	//auto expected = std::make_tuple(2, 3, 1);
+  auto expected = std::make_tuple(b,c,a);
 	rotate3arguments(a, b, c);
 
-	ASSERT_EQUAL(expected, std::tie(a, b, c));
+	ASSERT_EQUAL(expected, std::make_tuple(a, b, c));
 }
 
 void rotate3strings() {

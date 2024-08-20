@@ -17,7 +17,7 @@ OBJS += \
 src/%.o: ../src/%.cpp src/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -std=c++17 -I"/Users/sop/Documents/talks/Firmenkurse/workshop/sources/CPPCourseAdvanced/workspace/dynArrayExercise/cute" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	g++ -std=c++20 -I"/Users/sop/Documents/talks/Firmenkurse/workshop/sources/CPPCourseAdvanced/workspace/dynArrayExercise/cute" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

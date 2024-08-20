@@ -1,10 +1,18 @@
 <testsuites>
 	<testsuite name="AllTests" tests="6">
-		<testcase classname="AllTests" name="longreadlntest"/>
+		<testcase classname="AllTests" name="longreadlntest">
+			<failure message="../src/ReadLnTest.cpp:69 longreadlntest: &quot;the rest&quot; == rest expected:	the rest	but was:	the	">
+longreadlntest: &quot;the rest&quot; == rest expected:	the rest	but was:	the	
+			</failure>
+		</testcase>
 		<testcase classname="AllTests" name="emptyreadlntest"/>
 		<testcase classname="AllTests" name="failedreadlntest"/>
 		<testcase classname="AllTests" name="successfulreadlntestwithoutlineend"/>
-		<testcase classname="AllTests" name="readlnwithstringconsumestoeol"/>
+		<testcase classname="AllTests" name="readlnwithstringconsumestoeol">
+			<failure message="../src/ReadLnTest.cpp:36 readlnwithstringconsumestoeol: &quot; some rest 123&quot; == rest expected:	 some rest 123	but was:	some	">
+readlnwithstringconsumestoeol: &quot; some rest 123&quot; == rest expected:	 some rest 123	but was:	some	
+			</failure>
+		</testcase>
 		<testcase classname="AllTests" name="testNonStringAtEnd"/>
 	</testsuite>
 </testsuites>

@@ -15,7 +15,7 @@ void test_median_int_right_value() {
 }
 
 void test_median_double() {
-	ASSERT_EQUAL_DELTA(7.0, median(7.0, 7.1, 6.9), 0.0001);
+	ASSERT_EQUAL_DELTA(7.0, median(7.0, 7.1, 6.9),0.00001);
 }
 
 void testmedianString() {
