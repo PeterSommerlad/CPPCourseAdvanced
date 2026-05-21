@@ -2,8 +2,67 @@
 
 Since you should normally use standard containers for objects that require heap allocation it is hard to create a useful exercise. 
 
+## Social Media Followers
 
-## Topological Sort Problem
+Take the example code for class Person from the slides and modify it to represent social media follower relationships. Each person can have multiple other persons as followers and can follow others. It might be best to keep track of all members with a data structure that holds the constructed Persons. Implement the following functionalities:
+
+* follow (otherPerson) - ensure that one cannot follow oneself
+* unfollow (otherPerson)
+* listFollowers(std::ostream &)
+* listFollowing(std::ostream &)
+* block(otherPerson) --> ensure that otherPerson no longer follows and that this no longer follows otherPerson
+* ban(Person) - as a function on the global registry. ensure that nobody can follow Person and that Person is actually deleted.
+
+To get a head start, see the File with tests SocialMediaGraphTest.cpp in this directory.
+
+Write useful test cases for the following relationships
+
+* (Peter <-> Fred <-> Steve ) - all follow each other and back
+* (Fred <-> Amy) - follow each other
+* (Amy -> Bibi) - Amy follows Bibi
+* (Tom -> Bibi) - Tom follows Bibi
+* (Peter -> Bibi) - Peter follows Bibi
+
+My implementation would print out that followership as:
+
+```
+Peter
+   follows    : Fred, Steve, Bibi, 
+   followedBy : Fred, Steve, 
+
+Fred
+   follows    : Peter, Steve, Amy, 
+   followedBy : Peter, Steve, 
+
+Steve
+   follows    : Peter, Fred, 
+   followedBy : Peter, Fred, 
+
+Amy
+   follows    : Bibi, 
+   followedBy : Fred, 
+
+Tom
+   follows    : Bibi, 
+   followedBy : 
+
+Bibi
+   follows    : 
+   followedBy : Peter, Amy, Tom, 
+
+```
+
+
+- A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
+- B) Model that Steve blocks Fred. (neither Steve follows Fred, nor Fred follows Steve)
+- C) Model that Peter unfollows Fred.
+- D) Model that Bibi is banned.
+
+For the test cases you can write a function that set ups the followers initially for each test. Start with testing A single Person, the two Persons etc.
+
+
+
+## Topological Sort Problem (optional - hard)
 
 Consider the problem of a student that needs to create their schedule according to the individual modules' pre-requisites. 
 Each module is identified by a short string. The pre-requisites of a module are given by a line in an input file, where the first string is the module name and the following strings are the module's required modules. 
@@ -70,62 +129,3 @@ Optional:
     std::chrono::duration<double> delta=std::chrono::system_clock::now()-start;
     out << delta.count() << "s time\n";
 ```
-
-
-## (optional - may be simpler) Social Media Followers
-
-Take the example code for class Person from the slides and modify it to represent social media follower relationships. Each person can have multiple other persons as followers and can follow others. It might be best to keep track of all members with a data structure that holds the constructed Persons. Implement the following functionalities:
-
-* follow (otherPerson) - ensure that one cannot follow oneself
-* unfollow (otherPerson)
-* listFollowers(std::ostream &)
-* listFollowing(std::ostream &)
-* block(otherPerson) --> ensure that otherPerson no longer follows and that this no longer follows otherPerson
-* ban(Person) - as a function on the global registry. ensure that nobody can follow Person and that Person is actually deleted.
-
-To get a head start, see the File with tests SocialMediaGraphTest.cpp in this directory.
-
-Write useful test cases for the following relationships
-
-* (Peter <-> Fred <-> Steve ) - all follow each other and back
-* (Fred <-> Amy) - follow each other
-* (Amy -> Bibi) - Amy follows Bibi
-* (Tom -> Bibi) - Tom follows Bibi
-* (Peter -> Bibi) - Peter follows Bibi
-
-My implementation would print out that followership as:
-
-```
-Peter
-   follows    : Fred, Steve, Bibi, 
-   followedBy : Fred, Steve, 
-
-Fred
-   follows    : Peter, Steve, Amy, 
-   followedBy : Peter, Steve, 
-
-Steve
-   follows    : Peter, Fred, 
-   followedBy : Peter, Fred, 
-
-Amy
-   follows    : Bibi, 
-   followedBy : Fred, 
-
-Tom
-   follows    : Bibi, 
-   followedBy : 
-
-Bibi
-   follows    : 
-   followedBy : Peter, Amy, Tom, 
-
-```
-
-
-- A) Use shared_ptr and weak_ptr. How, can you ensure no cyclic shared_ptr relationships?
-- B) Model that Steve blocks Fred. (neither Steve follows Fred, nor Fred follows Steve)
-- C) Model that Peter unfollows Fred.
-- D) Model that Bibi is banned.
-
-For the test cases you can write a function that set ups the followers initially for each test. Start with testing A single Person, the two Persons etc.
