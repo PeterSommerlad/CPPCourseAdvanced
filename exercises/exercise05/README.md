@@ -110,6 +110,8 @@ Write Test cases and implementation code for `indexableSet` for the following as
 
 Can you help the following student with his C++ template problems?
 
+see also on [compiler explorer](https://godbolt.org/z/ccaxjh5sE)
+
 > I have a simple class template that holds a collection of values but sometimes code using the class crashes. I've written as simple test for the class, which works, but I do get a warning about a signed/unsigned mismatch on the for loop. I though using auto would stop that. Is that anything to do with the crash? I've commented out all the other methods apart from add and remove.
 
 --- values.h ---
