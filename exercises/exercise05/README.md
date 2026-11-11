@@ -25,7 +25,7 @@ Is it neccessary for a (partial) specialization of a class template to provide t
 
 ## Examine and Test `Sack<T>`
   
-Take the example code including unit tests of the class template [Sack](../src/Sack.h) 
+Take the example code including unit tests of the class template [Sack](./solution/SackExercise/src/Sack.h) 
 
 * Can you invent more and better test cases than just the following for Sack?
 ```C++
